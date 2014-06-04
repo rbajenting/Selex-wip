@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35B62DD18E24E6A00F53B8D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C35B62DC18E24E6A00F53B8D /* Default.png */; };
+		C374FEC3190F511700B5433F /* bar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C374FEC2190F511700B5433F /* bar.PNG */; };
+		C374FF2C190FA04500B5433F /* C740-CS510-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEED190FA04500B5433F /* C740-CS510-Series.png */; };
+		C374FF2D190FA04500B5433F /* C790-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEEE190FA04500B5433F /* C790-Series.png */; };
+		C374FF2E190FA04500B5433F /* C950de.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FEEF190FA04500B5433F /* C950de.jpg */; };
+		C374FF2F190FA04500B5433F /* CS310-CS410-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF0190FA04500B5433F /* CS310-CS410-Series.png */; };
+		C374FF30190FA04500B5433F /* CX310-CX410-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF1190FA04500B5433F /* CX310-CX410-Series.png */; };
+		C374FF31190FA04500B5433F /* CX510-X740-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF2190FA04500B5433F /* CX510-X740-Series.png */; };
+		C374FF32190FA04500B5433F /* FI-6130Z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF3190FA04500B5433F /* FI-6130Z.jpg */; };
+		C374FF33190FA04500B5433F /* FI-6670.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF4190FA04500B5433F /* FI-6670.jpg */; };
+		C374FF34190FA04500B5433F /* FI-6800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF5190FA04500B5433F /* FI-6800.jpg */; };
+		C374FF35190FA04500B5433F /* MS310-MS410-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF6190FA04500B5433F /* MS310-MS410-Series.png */; };
+		C374FF36190FA04500B5433F /* MS510-MS610-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF7190FA04500B5433F /* MS510-MS610-Series.png */; };
+		C374FF37190FA04500B5433F /* MS710-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF8190FA04500B5433F /* MS710-Series.png */; };
+		C374FF38190FA04500B5433F /* MS810-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEF9190FA04500B5433F /* MS810-Series.png */; };
+		C374FF39190FA04500B5433F /* MX310-MX410-MX510-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEFA190FA04500B5433F /* MX310-MX410-MX510-Series.png */; };
+		C374FF3A190FA04500B5433F /* MX710-MX610-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEFB190FA04500B5433F /* MX710-MX610-Series.png */; };
+		C374FF3B190FA04500B5433F /* MX810-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FEFC190FA04500B5433F /* MX810-Series.png */; };
+		C374FF3C190FA04500B5433F /* ScanSnap-N-1800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FEFD190FA04500B5433F /* ScanSnap-N-1800.jpg */; };
+		C374FF3E190FA04500B5433F /* W850dn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FEFF190FA04500B5433F /* W850dn.jpg */; };
+		C374FF44190FA04500B5433F /* X790-Series.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FF05190FA04500B5433F /* X790-Series.png */; };
+		C374FF45190FA04500B5433F /* X864dhe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FF06190FA04500B5433F /* X864dhe.jpg */; };
+		C374FF46190FA04500B5433F /* X950de.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FF07190FA04500B5433F /* X950de.jpg */; };
+		C374FF48190FA77200B5433F /* MX6500e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C374FF47190FA77200B5433F /* MX6500e.jpg */; };
+		C374FF4A190FA79200B5433F /* C925de.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FF49190FA79200B5433F /* C925de.png */; };
+		C374FF4C190FA79B00B5433F /* X925de.png in Resources */ = {isa = PBXBuildFile; fileRef = C374FF4B190FA79B00B5433F /* X925de.png */; };
+		C38FEFA51910DE160097444D /* Specs-C740-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF841910DE160097444D /* Specs-C740-Series.pdf */; };
+		C38FEFA61910DE160097444D /* Specs-C790-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF851910DE160097444D /* Specs-C790-Series.pdf */; };
+		C38FEFA71910DE160097444D /* Specs-C925-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF861910DE160097444D /* Specs-C925-Series.pdf */; };
+		C38FEFA81910DE160097444D /* Specs-C950-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF871910DE160097444D /* Specs-C950-Series.pdf */; };
+		C38FEFA91910DE160097444D /* Specs-CS310-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF881910DE160097444D /* Specs-CS310-Series.pdf */; };
+		C38FEFAA1910DE160097444D /* Specs-CS410-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF891910DE160097444D /* Specs-CS410-Series.pdf */; };
+		C38FEFAB1910DE160097444D /* Specs-CS510-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF8A1910DE160097444D /* Specs-CS510-Series.pdf */; };
+		C38FEFAC1910DE160097444D /* Specs-CX310-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF8B1910DE160097444D /* Specs-CX310-Series.pdf */; };
+		C38FEFAD1910DE160097444D /* Specs-CX410-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF8C1910DE160097444D /* Specs-CX410-Series.pdf */; };
+		C38FEFAE1910DE160097444D /* Specs-CX510-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF8D1910DE160097444D /* Specs-CX510-Series.pdf */; };
+		C38FEFAF1910DE160097444D /* Specs-FI-6130Z.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF8E1910DE160097444D /* Specs-FI-6130Z.pdf */; };
+		C38FEFB01910DE160097444D /* Specs-FI-6670.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF8F1910DE160097444D /* Specs-FI-6670.pdf */; };
+		C38FEFB11910DE160097444D /* Specs-FI-6800.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF901910DE160097444D /* Specs-FI-6800.pdf */; };
+		C38FEFB21910DE160097444D /* Specs-MS310-MS410-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF911910DE160097444D /* Specs-MS310-MS410-Series.pdf */; };
+		C38FEFB31910DE160097444D /* Specs-MS510-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF921910DE160097444D /* Specs-MS510-Series.pdf */; };
+		C38FEFB41910DE160097444D /* Specs-MS610-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF931910DE160097444D /* Specs-MS610-Series.pdf */; };
+		C38FEFB51910DE160097444D /* Specs-MS710-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF941910DE160097444D /* Specs-MS710-Series.pdf */; };
+		C38FEFB61910DE160097444D /* Specs-MS810-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF951910DE160097444D /* Specs-MS810-Series.pdf */; };
+		C38FEFB71910DE160097444D /* Specs-MS811-MS812-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF961910DE160097444D /* Specs-MS811-MS812-Series.pdf */; };
+		C38FEFB81910DE160097444D /* Specs-MX310-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF971910DE160097444D /* Specs-MX310-Series.pdf */; };
+		C38FEFB91910DE160097444D /* Specs-MX410-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF981910DE160097444D /* Specs-MX410-Series.pdf */; };
+		C38FEFBA1910DE160097444D /* Specs-MX510-MX511-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF991910DE160097444D /* Specs-MX510-MX511-Series.pdf */; };
+		C38FEFBB1910DE160097444D /* Specs-MX610-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF9A1910DE160097444D /* Specs-MX610-Series.pdf */; };
+		C38FEFBC1910DE160097444D /* Specs-MX710-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF9B1910DE160097444D /* Specs-MX710-Series.pdf */; };
+		C38FEFBD1910DE160097444D /* Specs-MX810-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF9C1910DE160097444D /* Specs-MX810-Series.pdf */; };
+		C38FEFBE1910DE160097444D /* Specs-MX6500e.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF9D1910DE160097444D /* Specs-MX6500e.pdf */; };
+		C38FEFBF1910DE160097444D /* Specs-ScanSnap-N-1800.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF9E1910DE160097444D /* Specs-ScanSnap-N-1800.pdf */; };
+		C38FEFC01910DE160097444D /* Specs-W850-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEF9F1910DE160097444D /* Specs-W850-Series.pdf */; };
+		C38FEFC11910DE160097444D /* Specs-X740-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEFA01910DE160097444D /* Specs-X740-Series.pdf */; };
+		C38FEFC21910DE160097444D /* Specs-X790-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEFA11910DE160097444D /* Specs-X790-Series.pdf */; };
+		C38FEFC31910DE160097444D /* Specs-X860-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEFA21910DE160097444D /* Specs-X860-Series.pdf */; };
+		C38FEFC41910DE160097444D /* Specs-X925de.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEFA31910DE160097444D /* Specs-X925de.pdf */; };
+		C38FEFC51910DE160097444D /* Specs-X950-Series.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C38FEFA41910DE160097444D /* Specs-X950-Series.pdf */; };
+		C38FEFC71910FC090097444D /* change.log in Resources */ = {isa = PBXBuildFile; fileRef = C38FEFC61910FC090097444D /* change.log */; };
+		F4793D681817AA40003C7478 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4793D661817AA40003C7478 /* InfoPlist.strings */; };
+		F4793D6A1817AA40003C7478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4793D691817AA40003C7478 /* main.m */; };
+		F4793D6E1817AA40003C7478 /* PageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4793D6D1817AA40003C7478 /* PageAppDelegate.m */; };
+		F4793D711817AA40003C7478 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = F4793D701817AA40003C7478 /* main.html */; };
+		F4793D731817AA40003C7478 /* NKit.js in Resources */ = {isa = PBXBuildFile; fileRef = F4793D721817AA40003C7478 /* NKit.js */; };
+		F49A098D1862E43C001ACE92 /* specs.html in Resources */ = {isa = PBXBuildFile; fileRef = F49A098C1862E43C001ACE92 /* specs.html */; };
+		F49D6ECC18322EC00080BDBC /* product.html in Resources */ = {isa = PBXBuildFile; fileRef = F49D6ECB18322EC00080BDBC /* product.html */; };
+		F4AACACB1818D02E00C7F273 /* event.css in Resources */ = {isa = PBXBuildFile; fileRef = F4AACACA1818D02E00C7F273 /* event.css */; };
+		F4BCD3A2185C314300E81A7E /* items.js in Sources */ = {isa = PBXBuildFile; fileRef = F4BCD3A1185C314300E81A7E /* items.js */; };
+		F4BCD3A3185C3C7D00E81A7E /* items.js in Resources */ = {isa = PBXBuildFile; fileRef = F4BCD3A1185C314300E81A7E /* items.js */; };
+		F4DC7D221829D50800AD0435 /* answers.html in Resources */ = {isa = PBXBuildFile; fileRef = F4DC7D201829D50800AD0435 /* answers.html */; };
+		F4DC7D231829D50800AD0435 /* questions.html in Resources */ = {isa = PBXBuildFile; fileRef = F4DC7D211829D50800AD0435 /* questions.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C35B62DC18E24E6A00F53B8D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C374FEC2190F511700B5433F /* bar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.PNG; sourceTree = "<group>"; };
+		C374FEED190FA04500B5433F /* C740-CS510-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C740-CS510-Series.png"; sourceTree = "<group>"; };
+		C374FEEE190FA04500B5433F /* C790-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C790-Series.png"; sourceTree = "<group>"; };
+		C374FEEF190FA04500B5433F /* C950de.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C950de.jpg; sourceTree = "<group>"; };
+		C374FEF0190FA04500B5433F /* CS310-CS410-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CS310-CS410-Series.png"; sourceTree = "<group>"; };
+		C374FEF1190FA04500B5433F /* CX310-CX410-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CX310-CX410-Series.png"; sourceTree = "<group>"; };
+		C374FEF2190FA04500B5433F /* CX510-X740-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CX510-X740-Series.png"; sourceTree = "<group>"; };
+		C374FEF3190FA04500B5433F /* FI-6130Z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FI-6130Z.jpg"; sourceTree = "<group>"; };
+		C374FEF4190FA04500B5433F /* FI-6670.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FI-6670.jpg"; sourceTree = "<group>"; };
+		C374FEF5190FA04500B5433F /* FI-6800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FI-6800.jpg"; sourceTree = "<group>"; };
+		C374FEF6190FA04500B5433F /* MS310-MS410-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MS310-MS410-Series.png"; sourceTree = "<group>"; };
+		C374FEF7190FA04500B5433F /* MS510-MS610-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MS510-MS610-Series.png"; sourceTree = "<group>"; };
+		C374FEF8190FA04500B5433F /* MS710-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MS710-Series.png"; sourceTree = "<group>"; };
+		C374FEF9190FA04500B5433F /* MS810-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MS810-Series.png"; sourceTree = "<group>"; };
+		C374FEFA190FA04500B5433F /* MX310-MX410-MX510-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MX310-MX410-MX510-Series.png"; sourceTree = "<group>"; };
+		C374FEFB190FA04500B5433F /* MX710-MX610-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MX710-MX610-Series.png"; sourceTree = "<group>"; };
+		C374FEFC190FA04500B5433F /* MX810-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MX810-Series.png"; sourceTree = "<group>"; };
+		C374FEFD190FA04500B5433F /* ScanSnap-N-1800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ScanSnap-N-1800.jpg"; sourceTree = "<group>"; };
+		C374FEFF190FA04500B5433F /* W850dn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = W850dn.jpg; sourceTree = "<group>"; };
+		C374FF05190FA04500B5433F /* X790-Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X790-Series.png"; sourceTree = "<group>"; };
+		C374FF06190FA04500B5433F /* X864dhe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = X864dhe.jpg; sourceTree = "<group>"; };
+		C374FF07190FA04500B5433F /* X950de.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = X950de.jpg; sourceTree = "<group>"; };
+		C374FF47190FA77200B5433F /* MX6500e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MX6500e.jpg; sourceTree = "<group>"; };
+		C374FF49190FA79200B5433F /* C925de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C925de.png; sourceTree = "<group>"; };
+		C374FF4B190FA79B00B5433F /* X925de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X925de.png; sourceTree = "<group>"; };
+		C38FEF841910DE160097444D /* Specs-C740-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-C740-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF851910DE160097444D /* Specs-C790-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-C790-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF861910DE160097444D /* Specs-C925-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-C925-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF871910DE160097444D /* Specs-C950-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-C950-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF881910DE160097444D /* Specs-CS310-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-CS310-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF891910DE160097444D /* Specs-CS410-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-CS410-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF8A1910DE160097444D /* Specs-CS510-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-CS510-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF8B1910DE160097444D /* Specs-CX310-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-CX310-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF8C1910DE160097444D /* Specs-CX410-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-CX410-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF8D1910DE160097444D /* Specs-CX510-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-CX510-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF8E1910DE160097444D /* Specs-FI-6130Z.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-FI-6130Z.pdf"; sourceTree = "<group>"; };
+		C38FEF8F1910DE160097444D /* Specs-FI-6670.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-FI-6670.pdf"; sourceTree = "<group>"; };
+		C38FEF901910DE160097444D /* Specs-FI-6800.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-FI-6800.pdf"; sourceTree = "<group>"; };
+		C38FEF911910DE160097444D /* Specs-MS310-MS410-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MS310-MS410-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF921910DE160097444D /* Specs-MS510-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MS510-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF931910DE160097444D /* Specs-MS610-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MS610-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF941910DE160097444D /* Specs-MS710-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MS710-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF951910DE160097444D /* Specs-MS810-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MS810-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF961910DE160097444D /* Specs-MS811-MS812-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MS811-MS812-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF971910DE160097444D /* Specs-MX310-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX310-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF981910DE160097444D /* Specs-MX410-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX410-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF991910DE160097444D /* Specs-MX510-MX511-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX510-MX511-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF9A1910DE160097444D /* Specs-MX610-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX610-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF9B1910DE160097444D /* Specs-MX710-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX710-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF9C1910DE160097444D /* Specs-MX810-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX810-Series.pdf"; sourceTree = "<group>"; };
+		C38FEF9D1910DE160097444D /* Specs-MX6500e.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-MX6500e.pdf"; sourceTree = "<group>"; };
+		C38FEF9E1910DE160097444D /* Specs-ScanSnap-N-1800.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-ScanSnap-N-1800.pdf"; sourceTree = "<group>"; };
+		C38FEF9F1910DE160097444D /* Specs-W850-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-W850-Series.pdf"; sourceTree = "<group>"; };
+		C38FEFA01910DE160097444D /* Specs-X740-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-X740-Series.pdf"; sourceTree = "<group>"; };
+		C38FEFA11910DE160097444D /* Specs-X790-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-X790-Series.pdf"; sourceTree = "<group>"; };
+		C38FEFA21910DE160097444D /* Specs-X860-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-X860-Series.pdf"; sourceTree = "<group>"; };
+		C38FEFA31910DE160097444D /* Specs-X925de.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-X925de.pdf"; sourceTree = "<group>"; };
+		C38FEFA41910DE160097444D /* Specs-X950-Series.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specs-X950-Series.pdf"; sourceTree = "<group>"; };
+		C38FEFC61910FC090097444D /* change.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = change.log; sourceTree = "<group>"; };
+		F4793D611817AA40003C7478 /* LexProductSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LexProductSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4793D651817AA40003C7478 /* LexProductSelection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LexProductSelection-Info.plist"; sourceTree = "<group>"; };
+		F4793D671817AA40003C7478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4793D691817AA40003C7478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4793D6B1817AA40003C7478 /* LexProductSelection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LexProductSelection-Prefix.pch"; sourceTree = "<group>"; };
+		F4793D6C1817AA40003C7478 /* PageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageAppDelegate.h; sourceTree = "<group>"; };
+		F4793D6D1817AA40003C7478 /* PageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageAppDelegate.m; sourceTree = "<group>"; };
+		F4793D701817AA40003C7478 /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = main.html; path = HTML/main.html; sourceTree = "<group>"; };
+		F4793D721817AA40003C7478 /* NKit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = NKit.js; path = /Library/Frameworks/NimbleKit/NKit.js; sourceTree = "<absolute>"; };
+		F4793D741817AA40003C7478 /* NKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
+		F49A098C1862E43C001ACE92 /* specs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = specs.html; path = HTML/specs.html; sourceTree = "<group>"; };
+		F49D6ECB18322EC00080BDBC /* product.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = product.html; path = HTML/product.html; sourceTree = "<group>"; };
+		F4AACACA1818D02E00C7F273 /* event.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = event.css; sourceTree = "<group>"; };
+		F4BCD3A1185C314300E81A7E /* items.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = items.js; path = HTML/items.js; sourceTree = "<group>"; };
+		F4DC7D201829D50800AD0435 /* answers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = answers.html; path = HTML/answers.html; sourceTree = "<group>"; };
+		F4DC7D211829D50800AD0435 /* questions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = questions.html; path = HTML/questions.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4793D5E1817AA40003C7478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35B62DB18E24E6A00F53B8D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C374FEC2190F511700B5433F /* bar.PNG */,
+				C35B62DC18E24E6A00F53B8D /* Default.png */,
+			);
+			name = Images;
+			path = LexProductSelection/Images;
+			sourceTree = "<group>";
+		};
+		C374FEC6190FA04500B5433F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C38FEF831910CC400097444D /* Specs */,
+				C374FEEC190FA04500B5433F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C374FEEC190FA04500B5433F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C374FF4B190FA79B00B5433F /* X925de.png */,
+				C374FF49190FA79200B5433F /* C925de.png */,
+				C374FEED190FA04500B5433F /* C740-CS510-Series.png */,
+				C374FF47190FA77200B5433F /* MX6500e.jpg */,
+				C374FEEE190FA04500B5433F /* C790-Series.png */,
+				C374FEEF190FA04500B5433F /* C950de.jpg */,
+				C374FEF0190FA04500B5433F /* CS310-CS410-Series.png */,
+				C374FEF1190FA04500B5433F /* CX310-CX410-Series.png */,
+				C374FEF2190FA04500B5433F /* CX510-X740-Series.png */,
+				C374FEF3190FA04500B5433F /* FI-6130Z.jpg */,
+				C374FEF4190FA04500B5433F /* FI-6670.jpg */,
+				C374FEF5190FA04500B5433F /* FI-6800.jpg */,
+				C374FEF6190FA04500B5433F /* MS310-MS410-Series.png */,
+				C374FEF7190FA04500B5433F /* MS510-MS610-Series.png */,
+				C374FEF8190FA04500B5433F /* MS710-Series.png */,
+				C374FEF9190FA04500B5433F /* MS810-Series.png */,
+				C374FEFA190FA04500B5433F /* MX310-MX410-MX510-Series.png */,
+				C374FEFB190FA04500B5433F /* MX710-MX610-Series.png */,
+				C374FEFC190FA04500B5433F /* MX810-Series.png */,
+				C374FEFD190FA04500B5433F /* ScanSnap-N-1800.jpg */,
+				C374FEFF190FA04500B5433F /* W850dn.jpg */,
+				C374FF05190FA04500B5433F /* X790-Series.png */,
+				C374FF06190FA04500B5433F /* X864dhe.jpg */,
+				C374FF07190FA04500B5433F /* X950de.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C38FEF831910CC400097444D /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				C38FEF841910DE160097444D /* Specs-C740-Series.pdf */,
+				C38FEF851910DE160097444D /* Specs-C790-Series.pdf */,
+				C38FEF861910DE160097444D /* Specs-C925-Series.pdf */,
+				C38FEF871910DE160097444D /* Specs-C950-Series.pdf */,
+				C38FEF881910DE160097444D /* Specs-CS310-Series.pdf */,
+				C38FEF891910DE160097444D /* Specs-CS410-Series.pdf */,
+				C38FEF8A1910DE160097444D /* Specs-CS510-Series.pdf */,
+				C38FEF8B1910DE160097444D /* Specs-CX310-Series.pdf */,
+				C38FEF8C1910DE160097444D /* Specs-CX410-Series.pdf */,
+				C38FEF8D1910DE160097444D /* Specs-CX510-Series.pdf */,
+				C38FEF8E1910DE160097444D /* Specs-FI-6130Z.pdf */,
+				C38FEF8F1910DE160097444D /* Specs-FI-6670.pdf */,
+				C38FEF901910DE160097444D /* Specs-FI-6800.pdf */,
+				C38FEF911910DE160097444D /* Specs-MS310-MS410-Series.pdf */,
+				C38FEF921910DE160097444D /* Specs-MS510-Series.pdf */,
+				C38FEF931910DE160097444D /* Specs-MS610-Series.pdf */,
+				C38FEF941910DE160097444D /* Specs-MS710-Series.pdf */,
+				C38FEF951910DE160097444D /* Specs-MS810-Series.pdf */,
+				C38FEF961910DE160097444D /* Specs-MS811-MS812-Series.pdf */,
+				C38FEF971910DE160097444D /* Specs-MX310-Series.pdf */,
+				C38FEF981910DE160097444D /* Specs-MX410-Series.pdf */,
+				C38FEF991910DE160097444D /* Specs-MX510-MX511-Series.pdf */,
+				C38FEF9A1910DE160097444D /* Specs-MX610-Series.pdf */,
+				C38FEF9B1910DE160097444D /* Specs-MX710-Series.pdf */,
+				C38FEF9C1910DE160097444D /* Specs-MX810-Series.pdf */,
+				C38FEF9D1910DE160097444D /* Specs-MX6500e.pdf */,
+				C38FEF9E1910DE160097444D /* Specs-ScanSnap-N-1800.pdf */,
+				C38FEF9F1910DE160097444D /* Specs-W850-Series.pdf */,
+				C38FEFA01910DE160097444D /* Specs-X740-Series.pdf */,
+				C38FEFA11910DE160097444D /* Specs-X790-Series.pdf */,
+				C38FEFA21910DE160097444D /* Specs-X860-Series.pdf */,
+				C38FEFA31910DE160097444D /* Specs-X925de.pdf */,
+				C38FEFA41910DE160097444D /* Specs-X950-Series.pdf */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		F4793D581817AA40003C7478 = {
+			isa = PBXGroup;
+			children = (
+				C35B62DB18E24E6A00F53B8D /* Images */,
+				F4793D631817AA40003C7478 /* LexProductSelection */,
+				F4793D621817AA40003C7478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4793D621817AA40003C7478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4793D611817AA40003C7478 /* LexProductSelection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4793D631817AA40003C7478 /* LexProductSelection */ = {
+			isa = PBXGroup;
+			children = (
+				C374FEC6190FA04500B5433F /* Resources */,
+				F4793D6C1817AA40003C7478 /* PageAppDelegate.h */,
+				F4793D6D1817AA40003C7478 /* PageAppDelegate.m */,
+				F4793D6F1817AA40003C7478 /* HTML */,
+				F4793D641817AA40003C7478 /* Supporting Files */,
+				C38FEFC61910FC090097444D /* change.log */,
+			);
+			path = LexProductSelection;
+			sourceTree = "<group>";
+		};
+		F4793D641817AA40003C7478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4AACACA1818D02E00C7F273 /* event.css */,
+				F4793D651817AA40003C7478 /* LexProductSelection-Info.plist */,
+				F4793D661817AA40003C7478 /* InfoPlist.strings */,
+				F4793D691817AA40003C7478 /* main.m */,
+				F4793D6B1817AA40003C7478 /* LexProductSelection-Prefix.pch */,
+				F4793D721817AA40003C7478 /* NKit.js */,
+				F4793D741817AA40003C7478 /* NKit.xcconfig */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4793D6F1817AA40003C7478 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				F49A098C1862E43C001ACE92 /* specs.html */,
+				F4BCD3A1185C314300E81A7E /* items.js */,
+				F49D6ECB18322EC00080BDBC /* product.html */,
+				F4DC7D201829D50800AD0435 /* answers.html */,
+				F4DC7D211829D50800AD0435 /* questions.html */,
+				F4793D701817AA40003C7478 /* main.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4793D601817AA40003C7478 /* LexProductSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4793D771817AA40003C7478 /* Build configuration list for PBXNativeTarget "LexProductSelection" */;
+			buildPhases = (
+				F4793D5D1817AA40003C7478 /* Sources */,
+				F4793D5E1817AA40003C7478 /* Frameworks */,
+				F4793D5F1817AA40003C7478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LexProductSelection;
+			productName = LexProductSelection;
+			productReference = F4793D611817AA40003C7478 /* LexProductSelection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4793D591817AA40003C7478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Page;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = felix;
+			};
+			buildConfigurationList = F4793D5C1817AA40003C7478 /* Build configuration list for PBXProject "LexProductSelection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4793D581817AA40003C7478;
+			productRefGroup = F4793D621817AA40003C7478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4793D601817AA40003C7478 /* LexProductSelection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4793D5F1817AA40003C7478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BCD3A3185C3C7D00E81A7E /* items.js in Resources */,
+				F4793D681817AA40003C7478 /* InfoPlist.strings in Resources */,
+				F4793D711817AA40003C7478 /* main.html in Resources */,
+				F4793D731817AA40003C7478 /* NKit.js in Resources */,
+				F4AACACB1818D02E00C7F273 /* event.css in Resources */,
+				F4DC7D221829D50800AD0435 /* answers.html in Resources */,
+				F4DC7D231829D50800AD0435 /* questions.html in Resources */,
+				F49D6ECC18322EC00080BDBC /* product.html in Resources */,
+				F49A098D1862E43C001ACE92 /* specs.html in Resources */,
+				C35B62DD18E24E6A00F53B8D /* Default.png in Resources */,
+				C374FEC3190F511700B5433F /* bar.PNG in Resources */,
+				C374FF2C190FA04500B5433F /* C740-CS510-Series.png in Resources */,
+				C374FF2D190FA04500B5433F /* C790-Series.png in Resources */,
+				C374FF2E190FA04500B5433F /* C950de.jpg in Resources */,
+				C374FF2F190FA04500B5433F /* CS310-CS410-Series.png in Resources */,
+				C374FF30190FA04500B5433F /* CX310-CX410-Series.png in Resources */,
+				C374FF31190FA04500B5433F /* CX510-X740-Series.png in Resources */,
+				C374FF32190FA04500B5433F /* FI-6130Z.jpg in Resources */,
+				C374FF33190FA04500B5433F /* FI-6670.jpg in Resources */,
+				C374FF34190FA04500B5433F /* FI-6800.jpg in Resources */,
+				C374FF35190FA04500B5433F /* MS310-MS410-Series.png in Resources */,
+				C374FF36190FA04500B5433F /* MS510-MS610-Series.png in Resources */,
+				C374FF37190FA04500B5433F /* MS710-Series.png in Resources */,
+				C374FF38190FA04500B5433F /* MS810-Series.png in Resources */,
+				C374FF39190FA04500B5433F /* MX310-MX410-MX510-Series.png in Resources */,
+				C374FF3A190FA04500B5433F /* MX710-MX610-Series.png in Resources */,
+				C374FF3B190FA04500B5433F /* MX810-Series.png in Resources */,
+				C374FF3C190FA04500B5433F /* ScanSnap-N-1800.jpg in Resources */,
+				C374FF3E190FA04500B5433F /* W850dn.jpg in Resources */,
+				C374FF44190FA04500B5433F /* X790-Series.png in Resources */,
+				C374FF45190FA04500B5433F /* X864dhe.jpg in Resources */,
+				C374FF46190FA04500B5433F /* X950de.jpg in Resources */,
+				C374FF48190FA77200B5433F /* MX6500e.jpg in Resources */,
+				C374FF4A190FA79200B5433F /* C925de.png in Resources */,
+				C374FF4C190FA79B00B5433F /* X925de.png in Resources */,
+				C38FEFA51910DE160097444D /* Specs-C740-Series.pdf in Resources */,
+				C38FEFA61910DE160097444D /* Specs-C790-Series.pdf in Resources */,
+				C38FEFA71910DE160097444D /* Specs-C925-Series.pdf in Resources */,
+				C38FEFA81910DE160097444D /* Specs-C950-Series.pdf in Resources */,
+				C38FEFA91910DE160097444D /* Specs-CS310-Series.pdf in Resources */,
+				C38FEFAA1910DE160097444D /* Specs-CS410-Series.pdf in Resources */,
+				C38FEFAB1910DE160097444D /* Specs-CS510-Series.pdf in Resources */,
+				C38FEFAC1910DE160097444D /* Specs-CX310-Series.pdf in Resources */,
+				C38FEFAD1910DE160097444D /* Specs-CX410-Series.pdf in Resources */,
+				C38FEFAE1910DE160097444D /* Specs-CX510-Series.pdf in Resources */,
+				C38FEFAF1910DE160097444D /* Specs-FI-6130Z.pdf in Resources */,
+				C38FEFB01910DE160097444D /* Specs-FI-6670.pdf in Resources */,
+				C38FEFB11910DE160097444D /* Specs-FI-6800.pdf in Resources */,
+				C38FEFB21910DE160097444D /* Specs-MS310-MS410-Series.pdf in Resources */,
+				C38FEFB31910DE160097444D /* Specs-MS510-Series.pdf in Resources */,
+				C38FEFB41910DE160097444D /* Specs-MS610-Series.pdf in Resources */,
+				C38FEFB51910DE160097444D /* Specs-MS710-Series.pdf in Resources */,
+				C38FEFB61910DE160097444D /* Specs-MS810-Series.pdf in Resources */,
+				C38FEFB71910DE160097444D /* Specs-MS811-MS812-Series.pdf in Resources */,
+				C38FEFB81910DE160097444D /* Specs-MX310-Series.pdf in Resources */,
+				C38FEFB91910DE160097444D /* Specs-MX410-Series.pdf in Resources */,
+				C38FEFBA1910DE160097444D /* Specs-MX510-MX511-Series.pdf in Resources */,
+				C38FEFBB1910DE160097444D /* Specs-MX610-Series.pdf in Resources */,
+				C38FEFBC1910DE160097444D /* Specs-MX710-Series.pdf in Resources */,
+				C38FEFBD1910DE160097444D /* Specs-MX810-Series.pdf in Resources */,
+				C38FEFBE1910DE160097444D /* Specs-MX6500e.pdf in Resources */,
+				C38FEFBF1910DE160097444D /* Specs-ScanSnap-N-1800.pdf in Resources */,
+				C38FEFC01910DE160097444D /* Specs-W850-Series.pdf in Resources */,
+				C38FEFC11910DE160097444D /* Specs-X740-Series.pdf in Resources */,
+				C38FEFC21910DE160097444D /* Specs-X790-Series.pdf in Resources */,
+				C38FEFC31910DE160097444D /* Specs-X860-Series.pdf in Resources */,
+				C38FEFC41910DE160097444D /* Specs-X925de.pdf in Resources */,
+				C38FEFC51910DE160097444D /* Specs-X950-Series.pdf in Resources */,
+				C38FEFC71910FC090097444D /* change.log in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4793D5D1817AA40003C7478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4793D6A1817AA40003C7478 /* main.m in Sources */,
+				F4793D6E1817AA40003C7478 /* PageAppDelegate.m in Sources */,
+				F4BCD3A2185C314300E81A7E /* items.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4793D661817AA40003C7478 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4793D671817AA40003C7478 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4793D751817AA40003C7478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4793D741817AA40003C7478 /* NKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4793D761817AA40003C7478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4793D741817AA40003C7478 /* NKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4793D781817AA40003C7478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LexProductSelection/LexProductSelection-Prefix.pch";
+				INFOPLIST_FILE = "LexProductSelection/LexProductSelection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4793D791817AA40003C7478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LexProductSelection/LexProductSelection-Prefix.pch";
+				INFOPLIST_FILE = "LexProductSelection/LexProductSelection-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4793D5C1817AA40003C7478 /* Build configuration list for PBXProject "LexProductSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4793D751817AA40003C7478 /* Debug */,
+				F4793D761817AA40003C7478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4793D771817AA40003C7478 /* Build configuration list for PBXNativeTarget "LexProductSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4793D781817AA40003C7478 /* Debug */,
+				F4793D791817AA40003C7478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4793D591817AA40003C7478 /* Project object */;
+}

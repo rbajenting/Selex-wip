@@ -1,0 +1,61 @@
+V0.03 5/9/14
+    items.js
+        removed reference to Resources/Brochures for productBrochure
+    specs.html
+        added boolean check to handle specs and brochures (local file reference for specs, external link for brochures)
+    resources
+        removed brochures files and directory
+        
+V0.02 5/2/14
+    items.js
+        changed items[16] "No" mapping from 17 to 34
+        changed items[17] placeholder question from "Does the customer need Scanning capability?" to "On average, how many pages will the device print per month?"
+        changed items[17] choices from "Small","Medium","Large" to "<3K","3-6K","6K"
+        added items[17] description "A sheet printed on both sides counts as two pages."
+        changed items[23] from C950de Series to C950de
+        changed items[28] from MX810 Series mapping from 133 to 110
+        added items[34] correct branch option for Y-N-N-N-Y-N answer flow
+        added productSpecs and productBrochure for all product items
+        updated productImage and productDescription for all items
+        enabled items[113]
+        changed items[113] productName from X95x to X950 Series
+        changed items[114] productName from C950 to C950 Series
+        changed items[115] productName from X792 to X790 Series
+        changed items[116] productName from C792 to C790 Series
+        changed items[117] productName from X925de Series to X925de
+        changed items[118] productName from X95x to X950 Series
+        changed items[119] productName from C925 to C925 Series
+        changed items[120] productName from C950 to C950 Series
+        changed items[121] productName from CS51x to CS510 Series
+        changed items[122] productName from C74x to C740 Series
+        changed items[123] productName from C792 to C790 Series
+        changed items[124] productName from CS41x to CS410 Series
+        changed items[125] productName from CS31x to CS310 Series
+        changed items[126] productName from CX31x to CX310 Series
+        changed items[128] productName from CX41x to CX410 Series
+        changed items[129] productName from X74x to X740 Series
+        changed items[130] productName from CX51x to CX510 Series
+        changed items[131] productName from MS710 to MS 710 Series
+        changed items[141] productName from MX6500e + MS81x to MS810 Series + MX6500e
+        changed items[142] productName from MX510 to MX510 Series
+        changed items[145] productName from MS310 to MS310 Series
+        changed items[146] productName from MS410 to MS410 Series
+        changed items[147] productName from MS510 to MS510 Series
+        changed items[148] productName from MS610 to MS610 Series
+        changed items[152] productName from X790 to X790 Series
+    product.html
+        enabled productSpecs assignment operation, commented out the hard-coded value
+        enabled productBrochure assignment operation, commented out the hard-coded value
+        enabled the productDescription assignment operation, commented out the hard-coded value
+    event.css
+        added Lexmark themed title_bar background-image, commented out existing background-color
+    resources
+        added Images/bar.png
+        added all files under Resources/Images
+        added all files under Resources/Brochures
+        added all files under Resources/Specs
+        removed C925 Family Brochure.pdf
+        removed X950pic.png
+
+V0.01 4/28/14
+    inherited resources as of April 28, 2014 (℅ Felix Cantay and Lance Kwan)

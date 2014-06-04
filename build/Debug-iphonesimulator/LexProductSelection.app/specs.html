@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="event.css" rel="stylesheet" type="text/css">
+            
+            <script type="text/javascript" src="NKit.js"></script>
+            <script type="text/javascript" src="items.js"></script>
+            <script type="text/javascript">
+                
+                var application = new NKApplication();
+                application.setStatusBarStyle("blacktranslucent");
+                
+                //var navController = new NKNavigationController();
+                //navController.setTitle("SeLex");
+                //navController.setTintColor(65,64,66);
+                
+                var productSpecs = NKGetParameter("specsname");
+                productSpecs = unescape(productSpecs);
+                
+                var specstype    = NKGetParameter("specstype");
+                specstype        = parseInt(specstype,10);  //convert to integer
+
+                var webview = new NKWebView;
+                webview.init(0,88,document.width,document.height);
+                webview.setScalesToFit("yes");
+                //webview.loadFromBundle(productSpecs);
+                
+                if(specstype == 1)
+                {
+                    webview.loadFromBundle(productSpecs);
+                }
+                else
+                {
+                    webview.loadURL(productSpecs);
+                }
+                
+                webview.show();
+                
+                
+                function dispalySpecsType()
+                {
+                    if(specstype == 1)
+                    {
+                        document.getElementById("specstype").innerHTML="| Product Specification";
+                    }
+                    else
+                    {
+                        document.getElementById("specstype").innerHTML="| Product Brochure";
+                    }
+                }
+                
+                /*
+                 NKWebView doesn't automatically resize when orientation changes
+                 So this function does the manual resizing of webview
+                 */
+                function pageWillRotate(degree)
+                {
+                    if(degree == 0 | degree == 180)//portrait orientation
+                    {
+                        webview.init(0,88,document.width,480);
+                    }
+                    else
+                    {
+                        webview.init(0,88,480,document.height);
+                    }
+                }
+
+                function onBack()
+                {
+                    NKMoveToPageAnimated('product.html', "FastPushRight");
+                }
+
+            </script>
+    </head>
+    <body width="100%">
+        <div class="title_bar">
+            <span class="backbutton" onclick="onBack()">&lt; Product</span>
+            <span class="title">SeLex</span>
+        </div>
+        <div class="container">
+            <div class="nav_bar" id="specstype">| Product Specification</div>
+        </div>
+        <script>
+            dispalySpecsType();
+        </script>
+    </body>
+</html>

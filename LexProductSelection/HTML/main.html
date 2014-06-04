@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="event.css" rel="stylesheet" type="text/css">
+            
+            <script type="text/javascript" src="NKit.js"></script>
+            <script type="text/javascript" src="items.js"></script>
+            <script type="text/javascript">
+                
+                var application = new NKApplication();
+                //application.setStatusBarStyle("light");
+                
+                //var navController = new NKNavigationController();
+                //navController.setTitle("SeLex");
+                //navController.setTintColor(65,64,66);
+                
+                function gotoFirstQuestion()
+                {
+                    initAnswerStorage();
+                    //navController.gotoPage('questions.html?index=1');
+                    NKMoveToPageAnimated('questions.html?index=1', "FastPushLeft");
+                }
+            </script>
+    </head>
+    <body>
+        <div class="title_bar">SeLex</div>
+        <div class="container">
+            <div class="nav_bar">| Product Selection Guide</div>
+            <div class="logo">SeLex</div>
+            <div class="main">
+                <div class="maintext">This application will guide you in selecting Lexmark products suitable to the needs of your organization</div>
+                <div class="mainbutton">
+                    <button onclick="gotoFirstQuestion()">Start</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

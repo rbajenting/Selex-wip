@@ -1,0 +1,194 @@
+<html>
+    <head>
+        
+        <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="event.css" rel="stylesheet" type="text/css">
+        <title>Answers</title>
+            <script type="text/javascript" src="NKit.js"></script>
+            <script type="text/javascript" src="items.js"></script>
+
+            <script type="text/javascript">
+                
+                var application = new NKApplication();
+                application.setStatusBarStyle("blacktranslucent");
+                
+                //var navController = new NKNavigationController();
+                //navController.setTitle("Review Answers");
+                //navController.setTintColor(65,64,66);
+
+                
+                var items = getItems();
+                var answers = []; //array local to this page that stores all the answers
+                
+                //var id = NKGetParameter("id");
+                //var txt = id.split("-"); // split on dash
+                //var nextItemIndex   = parseInt(txt[0],10);    //convert to integer
+                //var curChoiceIndex  = parseInt(txt[1],10);    //convert to integer
+
+                /*
+                function editChoice(id)
+                {
+                    var txt = id.split("-"); // Split on dash
+                    var itemToEditIndex = parseInt(txt[0],10);  //convert to integer
+                    var itemStorageIndex = parseInt(txt[1],10);  //convert to integer
+                    
+                    //remove all the past the one being edited
+                    removeAllAnswersFrom(itemStorageIndex);
+                    
+                    NKExecuteJavascriptOnPage('updateIndex('+itemToEditIndex+')', 'questions.html');
+                    navController.goBack();
+                }*/
+                
+                
+                /*
+                 editChoice is the handler when answer is changed by clicking
+                 buttons that represents answers
+                 */
+                function editChoice(id)
+                {
+                    var txt = id.split("-"); // Split on dash
+                    var itemToEditIndex     = parseInt(txt[0],10);  //convert to integer
+                    var itemStorageIndex    = parseInt(txt[1],10);  //convert to integer
+                    var itemChoiceIndex     = parseInt(txt[2],10);  //convert to integer
+                    
+                    var txt = answers[itemStorageIndex].split("-"); // split on dash
+                    var itemIndex   = parseInt(txt[0],10);  //convert to integer
+                    var choiceIndex = parseInt(txt[1],10);  //convert to integer
+                    
+                    if(choiceIndex == itemChoiceIndex)
+                        return; //no change of the choice, so return
+
+                    //update the array storage
+                    answers[itemStorageIndex] = itemToEditIndex+"-"+itemChoiceIndex;
+                    
+                    //set the rest of the item in the array to false to indicate
+                    //they are no longer valid due to changes of the answer
+                    for(var i = itemStorageIndex+1; i<answers.length; i++)
+                    {
+                        answers[i] = false;
+                    }
+                    
+                    //display the updated answers
+                    displayAnswer();
+                }
+                
+                /*
+                 copy answers from local storage to answer array. this array will be used
+                 to display answers in this page
+                 */
+                function getAnswers()
+                {
+                    answers = [];
+                    
+                    var answersCount = getAnswersCount();
+                    for(var i = 0; i< answersCount; i++)
+                    {
+                        answers[i] = getAnswerAt(i);
+                    }
+                }
+                
+                /*
+                 display answers in tabular form. Answers are taken from local array named answer
+                 which is populated from local storage via getAnswers function
+                 */
+                function displayAnswer()
+                {
+                    var innerText = "<table>";
+                    
+                    for(var i = 0; i< answers.length; i++)
+                    {
+                        if(answers[i] == false) //user changed his answer and cause this item to no longer applicable 
+                            break;
+                        
+                        var txt = answers[i].split("-"); // split on dash
+                        var itemIndex   = parseInt(txt[0],10);  //convert to integer
+                        var choiceIndex = parseInt(txt[1],10);  //convert to integer
+                        
+                        innerText+="<tr>";
+                        //display the question
+                        innerText+="<td>"+items[itemIndex].question+"</td>";
+                        
+                        //display the choices with the selected answer highlighted via 'selected' className
+                        for(choice in items[itemIndex].choices)
+                        {
+                            var choiceText = items[itemIndex].choices[choice];
+                            if(choice == choiceIndex)
+                            {
+                                innerText+= "<td><button class='selected' id='"+itemIndex+"-"+i+"-"+choice+"' onclick='editChoice(this.id)'>"+choiceText+"</button></td>";
+                            }
+                            else
+                            {
+                                innerText+= "<td><button class='notselected' id='"+itemIndex+"-"+i+"-"+choice+"' onclick='editChoice(this.id)'>"+choiceText+"</button></td>";
+                            }
+                        }
+                        innerText+="</tr>";
+                    }
+                    
+                    innerText+="</table>";
+                    document.getElementById('q0').innerHTML=innerText;
+                }
+                
+                function onFinished()
+                {
+                    //clean up the local storage
+                    removeAllAnswers();
+                    
+                    //recreate the local storage
+                    var itemIndex = 0;
+                    var choiceIndex = 0;
+                    for(var i = 0; i< answers.length; i++)
+                    {
+                        if(answers[i] != false)
+                        {
+                            var txt = answers[i].split("-"); // Split on dash
+                            itemIndex   = parseInt(txt[0],10);  //convert to integer
+                            choiceIndex = parseInt(txt[1],10);  //convert to integer
+                            
+                            //add to the local storage
+                            addAnswer(itemIndex,choiceIndex);
+                        }
+                    }
+                    
+                    //set the index to the next question at the question page before going back to the page.
+                    var editItemIndex = items[itemIndex].choiceLink[choiceIndex];
+                    if(editItemIndex >= 100)
+                    {
+                        editItemIndex = itemIndex;
+                        removeItemAnswer(itemIndex);
+                    }
+                    //NKExecuteJavascriptOnPage('editNext('+editItemIndex+')', 'questions.html');
+                    //go back to question page
+                    //navController.goBack();
+                    
+                    //NKMoveToPageAnimated('questions.html', "FastPushRight");
+                    NKMoveToPageAnimated("questions.html?index="+editItemIndex, "FastPushLeft");
+                    
+                }
+                
+                function onBack()
+                {
+                    NKMoveToPageAnimated('questions.html', "FastPushRight");
+                }
+
+                </script>
+            </head>
+    <body>
+        <div class="title_bar">
+            <span class="backbutton" onclick="onBack()">&lt; Questions</span>
+            <span class="title">SeLex</span>
+        </div>
+        <div class="container">
+            <div class="nav_bar">| Review Answers</div>
+            <div class="answer" id="q0"></div>
+            <br><br>
+            <div class="mainbutton">
+                <button onclick="onFinished()">Finished</button>
+            </div>
+        </div>
+        <script>
+            getAnswers();
+            displayAnswer();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<html>
+    <head>
+        
+        <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="event.css" rel="stylesheet" type="text/css">
+            
+            <script type="text/javascript" src="NKit.js"></script>
+            <script type="text/javascript" src="items.js"></script>
+            <script type="text/javascript">
+                
+                var application = new NKApplication();
+                application.setStatusBarStyle("blacktranslucent");
+                
+                //var navController = new NKNavigationController();
+                //navController.setTitle("Product");
+                //navController.setTintColor(65,64,66);
+                
+                var indexTxt = NKGetParameter("index");
+                var currentItemIndex = parseInt(indexTxt,10);  //convert to integer
+                
+                function pageWillRotate(degree)
+                {
+                    if(degree == 0 | degree == 180)//portrait orientation
+                    {
+                        //about to change to portrait orientation
+                        //document.getElementById("product_desc").className="productdesc_portrait";
+                        //document.getElementById("product_image").className="productimage_portrait";
+                    }
+                    else
+                    {
+                        //about to change to portrait landscape
+                        //document.getElementById("product_desc").className="productdesc_landscape";
+                        //document.getElementById("product_image").className="productimage_landscape";
+                    }
+                }
+                
+                function showProductSpecs()
+                {
+                    var items = getItems();
+                    /* START 20140429 Ace
+                     * uncommented productSpecs assignment, commented out hard-coded value
+                     */
+                    var productSpecs = items[currentItemIndex].productSpecs;
+                    /*var productSpecs = "C925 Family Brochure.pdf";*/
+                    /* END 20140429 Ace */
+                    //navController.gotoPage(productSpecs);
+                    //NKMoveToPageAnimated(productSpecs, "FastPushRight");
+                    NKMoveToPageAnimated("specs.html?specsname="+productSpecs+"&specstype=1", "FastPushLeft");
+                }
+                function showProductBrochure()
+                {
+                    var items = getItems();
+                    /* START 20140429 Ace
+                     * uncommented productBrochure assignment, commented out hard-coded value
+                     */
+                    var productBrochure = items[currentItemIndex].productBrochure;
+                    /*var productBrochure = "C925 Family Brochure.pdf";*/
+                    /* END 20140429 Ace */
+                    //navController.gotoPage(productBrochure);
+                    //NKMoveToPageAnimated('specs.html', "FastPushLeft");
+                    NKMoveToPageAnimated("specs.html?specsname="+productBrochure+"&specstype=2", "FastPushLeft");
+                }
+                
+                function displayProduct()
+                {
+                    var items = getItems();
+                    var productName = "None";
+                    
+                    if(items[currentItemIndex].productName != null)
+                    {
+                        productName = "Product Name: " + items[currentItemIndex].productName;
+                    }
+                    document.getElementById("product_name").innerHTML=productName;
+                    
+                    var imageSource = "";
+                    if(items[currentItemIndex].productImage != null)
+                    {
+                        imageSource = items[currentItemIndex].productImage;
+                    }
+                    document.getElementById("product_image").src = imageSource;
+                    
+                    var description = "No products can be offered";
+                    if(items[currentItemIndex].productDescription != null)
+                    {
+                        /* START 20140429 Ace
+                         * uncommented productDescription assignment, commented out hard-coded value
+                         */
+                        description = items[currentItemIndex].productDescription;
+                        /*description = "Power up your office group with the Lexmark X950 Series, featuring high-performance A3 color functionality, flexible features, easy-to-use workflow solutions, advanced security, high capacity input and up to 2GB RAM."; */
+                        /* END 20140429 Ace */
+                    }
+                    document.getElementById("product_desc").innerHTML=description;
+                }
+                
+                function onBack()
+                {
+                    NKMoveToPageAnimated('questions.html', "FastPushRight");
+                }
+
+                </script>
+            </head>
+    <body>
+        <div class="title_bar">
+            <span class="backbutton" onclick="onBack()">&lt; Questions</span>
+            <span class="title">SeLex</span>
+        </div>
+        <div class="container">
+            <div class="nav_bar">| Product</div>
+            <div class="product_specslink">
+                <button onclick='showProductSpecs()'>View Product Specs</button>
+                <button onclick='showProductBrochure()'>View Product Brochure</button>
+            </div>
+            <div class="product_description">
+                <img src='' class="product_image" id="product_image" alt='Product Image'>
+                <h1 id="product_name">None</h1>
+                <hr>
+                <h2 id="product_desc">None</h2>
+                <script>
+                    displayProduct();
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

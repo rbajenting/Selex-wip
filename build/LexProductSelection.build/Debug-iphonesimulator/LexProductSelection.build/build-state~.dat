@@ -1,0 +1,1636 @@
+TLexProductSelection
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Info.plist /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist
+cProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch LexProductSelection/LexProductSelection-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection normal i386
+cGenerateDSYMFile /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection
+cCpResource LexProductSelection/HTML/items.js build/Debug-iphonesimulator/LexProductSelection.app/items.js
+cCopyStringsFile /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/en.lproj/InfoPlist.strings LexProductSelection/en.lproj/InfoPlist.strings
+cCpResource LexProductSelection/HTML/main.html build/Debug-iphonesimulator/LexProductSelection.app/main.html
+cCpResource /Library/Frameworks/NimbleKit/NKit.js build/Debug-iphonesimulator/LexProductSelection.app/NKit.js
+cCpResource LexProductSelection/event.css build/Debug-iphonesimulator/LexProductSelection.app/event.css
+cCpResource LexProductSelection/HTML/answers.html build/Debug-iphonesimulator/LexProductSelection.app/answers.html
+cCpResource LexProductSelection/HTML/questions.html build/Debug-iphonesimulator/LexProductSelection.app/questions.html
+cCpResource LexProductSelection/HTML/product.html build/Debug-iphonesimulator/LexProductSelection.app/product.html
+cCpResource LexProductSelection/HTML/specs.html build/Debug-iphonesimulator/LexProductSelection.app/specs.html
+cCpResource LexProductSelection/Images/Default.png build/Debug-iphonesimulator/LexProductSelection.app/Default.png
+cCpResource LexProductSelection/Images/bar.PNG build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG
+cCpResource LexProductSelection/Resources/Images/C740-CS510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png
+cCpResource LexProductSelection/Resources/Images/C790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png
+cCpResource LexProductSelection/Resources/Images/C950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg
+cCpResource LexProductSelection/Resources/Images/CS310-CS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png
+cCpResource LexProductSelection/Resources/Images/CX310-CX410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png
+cCpResource LexProductSelection/Resources/Images/CX510-X740-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png
+cCpResource LexProductSelection/Resources/Images/FI-6130Z.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg
+cCpResource LexProductSelection/Resources/Images/FI-6670.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg
+cCpResource LexProductSelection/Resources/Images/FI-6800.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg
+cCpResource LexProductSelection/Resources/Images/MS310-MS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png
+cCpResource LexProductSelection/Resources/Images/MS510-MS610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png
+cCpResource LexProductSelection/Resources/Images/MS710-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png
+cCpResource LexProductSelection/Resources/Images/MS810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png
+cCpResource LexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png
+cCpResource LexProductSelection/Resources/Images/MX710-MX610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png
+cCpResource LexProductSelection/Resources/Images/MX810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png
+cCpResource LexProductSelection/Resources/Images/ScanSnap-N-1800.jpg build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg
+cCpResource LexProductSelection/Resources/Images/W850dn.jpg build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg
+cCpResource LexProductSelection/Resources/Images/X790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png
+cCpResource LexProductSelection/Resources/Images/X864dhe.jpg build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg
+cCpResource LexProductSelection/Resources/Images/X950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg
+cCpResource LexProductSelection/Resources/Images/MX6500e.jpg build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg
+cCpResource LexProductSelection/Resources/Images/C925de.png build/Debug-iphonesimulator/LexProductSelection.app/C925de.png
+cCpResource LexProductSelection/Resources/Images/X925de.png build/Debug-iphonesimulator/LexProductSelection.app/X925de.png
+cCpResource LexProductSelection/Resources/Specs/Specs-C740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-C790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-C925-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-C950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-CS310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-CS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-CS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-CX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-CX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-CX510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-FI-6670.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-FI-6800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MS610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MS710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MS810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-MX6500e.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-W850-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-X740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-X790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-X860-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-X925de.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf
+cCpResource LexProductSelection/Resources/Specs/Specs-X950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf
+cCpResource LexProductSelection/change.log build/Debug-iphonesimulator/LexProductSelection.app/change.log
+cTouch /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000052F840C500000000000003B4
+t1392001221
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531149D9000000000000019E
+t1393641945
+s414
+
+N/Library/Frameworks/NimbleKit/NKit.js
+c000000005376DE2F000000000000C2D8
+t1400299055
+s49880
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/answers.html
+c00000000536CABA20000000000002230
+t1399630754
+s8752
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/items.js
+c00000000536C986100000000000076FC
+t1399625825
+s30460
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/main.html
+c00000000536CAC2C000000000000069D
+t1399630892
+s1693
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/product.html
+c00000000536CAB9D00000000000017A7
+t1399630749
+s6055
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/questions.html
+c00000000536CABA90000000000002320
+t1399630761
+s8992
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/specs.html
+c00000000536CAB990000000000000CC5
+t1399630745
+s3269
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Images/Default.png
+c0000000053321606000000000001DBAA
+t1395791366
+s121770
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Images/bar.PNG
+c00000000535F15CE0000000000004F62
+t1398740430
+s20322
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist
+c00000000536CB44B00000000000005DC
+t1399632971
+s1500
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Prefix.pch
+c00000000526772C00000000000000155
+t1382511296
+s341
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m
+c00000000535F1A620000000000000DF6
+t1398741602
+s3574
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C740-CS510-Series.png
+c00000000535F5DBA0000000000021970
+t1398758842
+s137584
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C790-Series.png
+c00000000535F5C730000000000029279
+t1398758515
+s168569
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C925de.png
+c00000000535F6A7A000000000000E52B
+t1398762106
+s58667
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C950de.jpg
+c00000000535F618E000000000000C925
+t1398759822
+s51493
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/CS310-CS410-Series.png
+c00000000535F5DFB000000000002E954
+t1398758907
+s190804
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/CX310-CX410-Series.png
+c00000000535F5D00000000000002562B
+t1398758656
+s153131
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/CX510-X740-Series.png
+c00000000535F5CB6000000000002CA9B
+t1398758582
+s182939
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/FI-6130Z.jpg
+c00000000535F6381000000000003497C
+t1398760321
+s215420
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/FI-6670.jpg
+c00000000535F63B80000000000017E0D
+t1398760376
+s97805
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/FI-6800.jpg
+c00000000535F646E0000000000049EAD
+t1398760558
+s302765
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS310-MS410-Series.png
+c00000000535F5F5A000000000002AD74
+t1398759258
+s175476
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS510-MS610-Series.png
+c00000000535F5F0E00000000000296AF
+t1398759182
+s169647
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS710-Series.png
+c00000000535F5EEC0000000000020F29
+t1398759148
+s134953
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS810-Series.png
+c00000000535F5E6D000000000002DD81
+t1398759021
+s187777
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png
+c00000000535F5F82000000000003491F
+t1398759298
+s215327
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX6500e.jpg
+c00000000535F6D5E000000000000A3B7
+t1398762846
+s41911
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX710-MX610-Series.png
+c00000000535F5EB000000000000464B5
+t1398759088
+s287925
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX810-Series.png
+c00000000535F5E4100000000000339EE
+t1398758977
+s211438
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/ScanSnap-N-1800.jpg
+c00000000535F65D9000000000001C1FF
+t1398760921
+s115199
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/W850dn.jpg
+c00000000535F6165000000000000B194
+t1398759781
+s45460
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X790-Series.png
+c00000000535F5C230000000000034011
+t1398758435
+s213009
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X864dhe.jpg
+c00000000535F62110000000000008DB1
+t1398759953
+s36273
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X925de.png
+c00000000535F69FE00000000000101A2
+t1398761982
+s65954
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X950de.jpg
+c00000000535F61CC000000000000D3E5
+t1398759884
+s54245
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C740-Series.pdf
+c000000005360A5C30000000000011275
+t1398842819
+s70261
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C790-Series.pdf
+c000000005360A36C00000000000217A5
+t1398842220
+s137125
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C925-Series.pdf
+c000000005360A575000000000000BD61
+t1398842741
+s48481
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C950-Series.pdf
+c000000005360A57F000000000000DA5A
+t1398842751
+s55898
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CS310-Series.pdf
+c000000005360A3A50000000000018AE9
+t1398842277
+s101097
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CS410-Series.pdf
+c000000005360A3AE0000000000019484
+t1398842286
+s103556
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CS510-Series.pdf
+c000000005360A39D0000000000024071
+t1398842269
+s147569
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CX310-Series.pdf
+c000000005360A3950000000000018258
+t1398842261
+s98904
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CX410-Series.pdf
+c000000005360A5320000000000018B52
+t1398842674
+s101202
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CX510-Series.pdf
+c000000005360A37B000000000001833B
+t1398842235
+s99131
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf
+c000000005360A54B0000000000025E20
+t1398842699
+s155168
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-FI-6670.pdf
+c000000005360A5210000000000016FFD
+t1398842657
+s94205
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-FI-6800.pdf
+c000000005360A5B7000000000002C427
+t1398842807
+s181287
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf
+c000000005360A42D000000000001E6E9
+t1398842413
+s124649
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS510-Series.pdf
+c000000005360A41300000000000181D1
+t1398842387
+s98769
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS610-Series.pdf
+c000000005360A41C00000000001344CB
+t1398842396
+s1262795
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS710-Series.pdf
+c000000005360A40A0000000000023BC7
+t1398842378
+s146375
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS810-Series.pdf
+c000000005360A3BE000000000016BFDE
+t1398842302
+s1490910
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf
+c000000005360A3C60000000000165885
+t1398842310
+s1464453
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX310-Series.pdf
+c000000005360A436000000000001581A
+t1398842422
+s88090
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX410-Series.pdf
+c000000005360A43F00000000000161AE
+t1398842431
+s90542
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf
+c000000005360A4470000000000016FDD
+t1398842439
+s94173
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX610-Series.pdf
+c000000005360A40200000000000199A9
+t1398842370
+s104873
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX6500e.pdf
+c000000005360A5540000000000076674
+t1398842708
+s484980
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX710-Series.pdf
+c000000005360A3CD0000000000018992
+t1398842317
+s100754
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX810-Series.pdf
+c000000005360A3B60000000000161DC5
+t1398842294
+s1449413
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf
+c000000005360A541000000000001819E
+t1398842689
+s98718
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-W850-Series.pdf
+c000000005360A46100000000000093E3
+t1398842465
+s37859
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X740-Series.pdf
+c000000005360A389000000000000F997
+t1398842249
+s63895
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X790-Series.pdf
+c000000005360A24E0000000000022CE1
+t1398841934
+s142561
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X860-Series.pdf
+c000000005360A5D5000000000000775B
+t1398842837
+s30555
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X925de.pdf
+c000000005360A55E000000000000C631
+t1398842718
+s50737
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X950-Series.pdf
+c000000005360A56C0000000000010604
+t1398842732
+s67076
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/change.log
+c00000000536C9AC20000000000000D90
+t1399626434
+s3472
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/en.lproj/InfoPlist.strings
+c00000000526772C0000000000000002D
+t1382511296
+s45
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/event.css
+c00000000536CAB730000000000001EC8
+t1399630707
+s7880
+
+N/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m
+c00000000526772C000000000000001AC
+t1382511296
+s428
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app
+t1401845969
+s2516
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM
+t2
+s0
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png
+t1401845969
+s137584
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png
+t1401845969
+s168569
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C925de.png
+t1401845969
+s58667
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg
+t1401845969
+s51493
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png
+t1401845969
+s190804
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png
+t1401845969
+s153131
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png
+t1401845969
+s182939
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Default.png
+t1401845969
+s121770
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg
+t1401845969
+s215420
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg
+t1401845969
+s97805
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg
+t1401845969
+s302765
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Info.plist
+t1401845966
+s1059
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection
+t1401845969
+s595488
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png
+t1401845969
+s175476
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png
+t1401845969
+s169647
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png
+t1401845969
+s134953
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png
+t1401845969
+s187777
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png
+t1401845969
+s215327
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg
+t1401845969
+s41911
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png
+t1401845969
+s287925
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png
+t1401845969
+s211438
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/NKit.js
+t1401845969
+s49880
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/PkgInfo
+t1401845966
+s8
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg
+t1401845969
+s115199
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf
+t1401845969
+s70261
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf
+t1401845969
+s137125
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf
+t1401845969
+s48481
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf
+t1401845969
+s55898
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf
+t1401845969
+s101097
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf
+t1401845969
+s103556
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf
+t1401845969
+s147569
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf
+t1401845969
+s98904
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf
+t1401845969
+s101202
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf
+t1401845969
+s99131
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf
+t1401845969
+s155168
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf
+t1401845969
+s94205
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf
+t1401845969
+s181287
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf
+t1401845969
+s124649
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf
+t1401845969
+s98769
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf
+t1401845969
+s1262795
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf
+t1401845969
+s146375
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf
+t1401845969
+s1490910
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf
+t1401845969
+s1464453
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf
+t1401845969
+s88090
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf
+t1401845969
+s90542
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf
+t1401845969
+s94173
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf
+t1401845969
+s104873
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf
+t1401845969
+s484980
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf
+t1401845969
+s100754
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf
+t1401845969
+s1449413
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf
+t1401845969
+s98718
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf
+t1401845969
+s37859
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf
+t1401845969
+s63895
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf
+t1401845969
+s142561
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf
+t1401845969
+s30555
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf
+t1401845969
+s50737
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf
+t1401845969
+s67076
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg
+t1401845969
+s45460
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png
+t1401845969
+s213009
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg
+t1401845969
+s36273
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X925de.png
+t1401845969
+s65954
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg
+t1401845969
+s54245
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/answers.html
+t1401845969
+s8752
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG
+t1401845969
+s20322
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/change.log
+t1401845969
+s3472
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/en.lproj/InfoPlist.strings
+t1401845969
+s42
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/event.css
+t1401845969
+s7880
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/items.js
+t1401845969
+s30460
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/main.html
+t1401845969
+s1693
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/product.html
+t1401845969
+s6055
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/questions.html
+t1401845969
+s8992
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/specs.html
+t1401845969
+s3269
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/LexProductSelection.LinkFileList
+c00000000538E78CE0000000000000127
+t1401845966
+s295
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o
+t1401845968
+s68264
+
+N/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o
+t1401845968
+s3996
+
+N/var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch
+t1401845968
+s5368552
+
+CBuild AST from /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m
+r0
+
+CBuild AST from /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3dd1a94eb03eb941^ab3fca4eb03eb941^-156"warning: no rule to process file '/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/items.js' of type sourcecode.javascript for architecture i3861(21%IDEActivityLogMessage2@155"Warning: no rule to process file '/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/items.js' of type sourcecode.javascript for architecture i386-423538766#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"A1E4A762-905B-45F2-A7EC-C2FC34488F42-
+
+CCompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423538768.525311
+e423538768.706198
+r1
+xCompileC
+xbuild/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o
+x/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m
+d/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.h
+d/Library/Frameworks/NimbleKit/Nimble.h
+d/Library/Frameworks/NimbleKit/NKBridge.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m232"CompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o LexProductSelection/PageAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0f9d8650b03eb941^3335b550b03eb941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m0000000000000000^3697"CompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o LexProductSelection/PageAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/Selex-v0.03    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-generated-files.hmap -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-own-target-headers.hmap -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-all-target-headers.hmap -iquote /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-project-headers.hmap -iquote/Library/Frameworks/NimbleKit -I/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/DerivedSources/i386 -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/DerivedSources -F/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator -include /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch -MMD -MT dependencies -MF /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.d --serialize-diagnostics /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.dia -c /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.m -o /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o36"DCBE1B13-0D23-4477-BC0E-6B3EF0398025-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423538768.086260
+e423538768.524843
+r1
+xCompileC
+xbuild/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o
+x/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m
+d/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/PageAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m210"CompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o LexProductSelection/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler083e1650b03eb941^7d5d8650b03eb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m0000000000000000^3631"CompileC build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o LexProductSelection/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/Selex-v0.03    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-generated-files.hmap -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-own-target-headers.hmap -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-all-target-headers.hmap -iquote /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-project-headers.hmap -iquote/Library/Frameworks/NimbleKit -I/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/DerivedSources/i386 -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/DerivedSources -F/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator -include /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch -MMD -MT dependencies -MF /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.dia -c /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/main.m -o /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o36"D06B4AEF-82FF-4BB7-BE80-6DC9D72C93E8-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCopyStringsFile /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/en.lproj/InfoPlist.strings LexProductSelection/en.lproj/InfoPlist.strings
+s423538769.371429
+e423538769.378893
+r1
+xCopyStringsFile
+x/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/en.lproj/InfoPlist.strings
+xLexProductSelection/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy LexProductSelection/en.lproj/InfoPlist.strings141"CopyStringsFile build/Debug-iphonesimulator/LexProductSelection.app/en.lproj/InfoPlist.strings LexProductSelection/en.lproj/InfoPlist.strings20f15f51b03eb941^4d106151b03eb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/en.lproj/InfoPlist.strings0000000000000000^615"CopyStringsFile build/Debug-iphonesimulator/LexProductSelection.app/en.lproj/InfoPlist.strings LexProductSelection/en.lproj/InfoPlist.strings    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/en.lproj -- LexProductSelection/en.lproj/InfoPlist.strings36"3667BC95-A9B1-49EC-BFA0-CC57440E8654-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource /Library/Frameworks/NimbleKit/NKit.js build/Debug-iphonesimulator/LexProductSelection.app/NKit.js
+s423538769.379949
+e423538769.382638
+r1
+xCpResource
+x/Library/Frameworks/NimbleKit/NKit.js
+xbuild/Debug-iphonesimulator/LexProductSelection.app/NKit.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/LexProductSelection.app/NKit.js108"CpResource /Library/Frameworks/NimbleKit/NKit.js build/Debug-iphonesimulator/LexProductSelection.app/NKit.jsb9546151b03eb941^66fa6151b03eb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/NKit.js0034d8cbddffdf42^583"CpResource /Library/Frameworks/NimbleKit/NKit.js build/Debug-iphonesimulator/LexProductSelection.app/NKit.js    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Library/Frameworks/NimbleKit/NKit.js /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"43BE8EDD-FD66-42A6-8238-A668F32D6D8E-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/HTML/answers.html build/Debug-iphonesimulator/LexProductSelection.app/answers.html
+s423538769.383382
+e423538769.386008
+r1
+xCpResource
+xLexProductSelection/HTML/answers.html
+xbuild/Debug-iphonesimulator/LexProductSelection.app/answers.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/LexProductSelection.app/answers.html113"CpResource LexProductSelection/HTML/answers.html build/Debug-iphonesimulator/LexProductSelection.app/answers.htmlc6356251b03eb941^25ca6251b03eb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/answers.html0034d8cbddffdf42^623"CpResource LexProductSelection/HTML/answers.html build/Debug-iphonesimulator/LexProductSelection.app/answers.html    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/answers.html /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"35982182-C2BA-4091-A59C-D8AB8489C390-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/HTML/items.js build/Debug-iphonesimulator/LexProductSelection.app/items.js
+s423538769.370977
+e423538769.378888
+r1
+xCpResource
+xLexProductSelection/HTML/items.js
+xbuild/Debug-iphonesimulator/LexProductSelection.app/items.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/LexProductSelection.app/items.js105"CpResource LexProductSelection/HTML/items.js build/Debug-iphonesimulator/LexProductSelection.app/items.jsfef05f51b03eb941^92086151b03eb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/items.js0034d8cbddffdf42^611"CpResource LexProductSelection/HTML/items.js build/Debug-iphonesimulator/LexProductSelection.app/items.js    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/items.js /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"765BE435-15D0-439D-AF8D-0C5DCF3E5472-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/HTML/main.html build/Debug-iphonesimulator/LexProductSelection.app/main.html
+s423538769.379514
+e423538769.381006
+r1
+xCpResource
+xLexProductSelection/HTML/main.html
+xbuild/Debug-iphonesimulator/LexProductSelection.app/main.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/LexProductSelection.app/main.html107"CpResource LexProductSelection/HTML/main.html build/Debug-iphonesimulator/LexProductSelection.app/main.htmlbc3c6151b03eb941^a29b6151b03eb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/main.html0034d8cbddffdf42^614"CpResource LexProductSelection/HTML/main.html build/Debug-iphonesimulator/LexProductSelection.app/main.html    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/main.html /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"DE94FC89-AAC2-4883-8283-867070787AD7-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/HTML/product.html build/Debug-iphonesimulator/LexProductSelection.app/product.html
+s423538769.386795
+e423538769.389555
+r1
+xCpResource
+xLexProductSelection/HTML/product.html
+xbuild/Debug-iphonesimulator/LexProductSelection.app/product.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/LexProductSelection.app/product.html113"CpResource LexProductSelection/HTML/product.html build/Debug-iphonesimulator/LexProductSelection.app/product.html3c166351b03eb941^90d76351b03eb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/product.html0034d8cbddffdf42^623"CpResource LexProductSelection/HTML/product.html build/Debug-iphonesimulator/LexProductSelection.app/product.html    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/product.html /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"6C93785F-117E-4103-B3C0-223E99C53384-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/HTML/questions.html build/Debug-iphonesimulator/LexProductSelection.app/questions.html
+s423538769.383768
+e423538769.386227
+r1
+xCpResource
+xLexProductSelection/HTML/questions.html
+xbuild/Debug-iphonesimulator/LexProductSelection.app/questions.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/LexProductSelection.app/questions.html117"CpResource LexProductSelection/HTML/questions.html build/Debug-iphonesimulator/LexProductSelection.app/questions.html594e6251b03eb941^3a076351b03eb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/questions.html0034d8cbddffdf42^629"CpResource LexProductSelection/HTML/questions.html build/Debug-iphonesimulator/LexProductSelection.app/questions.html    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/questions.html /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"D91E851B-805B-4BC2-BB67-DBD38E284C42-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/HTML/specs.html build/Debug-iphonesimulator/LexProductSelection.app/specs.html
+s423538769.386947
+e423538769.389734
+r1
+xCpResource
+xLexProductSelection/HTML/specs.html
+xbuild/Debug-iphonesimulator/LexProductSelection.app/specs.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/specs.html109"CpResource LexProductSelection/HTML/specs.html build/Debug-iphonesimulator/LexProductSelection.app/specs.html03276351b03eb941^c4096451b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/specs.html0034d8cbddffdf42^617"CpResource LexProductSelection/HTML/specs.html build/Debug-iphonesimulator/LexProductSelection.app/specs.html    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/HTML/specs.html /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"2517BF43-841B-435C-A3F6-DD2E819FA5EC-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Images/Default.png build/Debug-iphonesimulator/LexProductSelection.app/Default.png
+s423538769.390139
+e423538769.392950
+r1
+xCpResource
+xLexProductSelection/Images/Default.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/LexProductSelection.app/Default.png113"CpResource LexProductSelection/Images/Default.png build/Debug-iphonesimulator/LexProductSelection.app/Default.png41f16351b03eb941^b69f6451b03eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Default.png0034d8cbddffdf42^624"CpResource LexProductSelection/Images/Default.png build/Debug-iphonesimulator/LexProductSelection.app/Default.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Images/Default.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"F7CFE825-A08E-4541-8F98-9B4735C201B3-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Images/bar.PNG build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG
+s423538769.391514
+e423538769.394615
+r1
+xCpResource
+xLexProductSelection/Images/bar.PNG
+xbuild/Debug-iphonesimulator/LexProductSelection.app/bar.PNG
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG105"CpResource LexProductSelection/Images/bar.PNG build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG0a4b6451b03eb941^0f0f6551b03eb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG0034d8cbddffdf42^612"CpResource LexProductSelection/Images/bar.PNG build/Debug-iphonesimulator/LexProductSelection.app/bar.PNG    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Images/bar.PNG /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"F498AAF3-5BFB-412B-BFE4-390279CB1A71-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/C740-CS510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png
+s423538769.393334
+e423538769.396296
+r1
+xCpResource
+xLexProductSelection/Resources/Images/C740-CS510-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png143"CpResource LexProductSelection/Resources/Images/C740-CS510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png1ec26451b03eb941^14766551b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png0034d8cbddffdf42^674"CpResource LexProductSelection/Resources/Images/C740-CS510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C740-CS510-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C740-CS510-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"92BED5AC-2B38-490F-95BD-16E8112D6F35-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/C790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png
+s423538769.395063
+e423538769.401439
+r1
+xCpResource
+xLexProductSelection/Resources/Images/C790-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png131"CpResource LexProductSelection/Resources/Images/C790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png05346551b03eb941^fc376751b03eb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png0034d8cbddffdf42^656"CpResource LexProductSelection/Resources/Images/C790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/C790-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C790-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"9ABE0978-0038-4737-8A5F-9A767C33BE2D-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/C925de.png build/Debug-iphonesimulator/LexProductSelection.app/C925de.png
+s423538769.452919
+e423538769.457931
+r1
+xCpResource
+xLexProductSelection/Resources/Images/C925de.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/C925de.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/C925de.png121"CpResource LexProductSelection/Resources/Images/C925de.png build/Debug-iphonesimulator/LexProductSelection.app/C925de.png1d057451b03eb941^103d7551b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C925de.png0034d8cbddffdf42^641"CpResource LexProductSelection/Resources/Images/C925de.png build/Debug-iphonesimulator/LexProductSelection.app/C925de.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C925de.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"629CD716-D417-4DF3-81DF-4CA11E0E781A-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/C950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg
+s423538769.396698
+e423538769.399945
+r1
+xCpResource
+xLexProductSelection/Resources/Images/C950de.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg121"CpResource LexProductSelection/Resources/Images/C950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg1f9e6551b03eb941^d2ff6651b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg0034d8cbddffdf42^641"CpResource LexProductSelection/Resources/Images/C950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/C950de.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/C950de.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"87DEE5ED-B58A-4A1B-93FE-FB77D2D7028B-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/CS310-CS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png
+s423538769.400921
+e423538769.405626
+r1
+xCpResource
+xLexProductSelection/Resources/Images/CS310-CS410-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png145"CpResource LexProductSelection/Resources/Images/CS310-CS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.pngf2b66651b03eb941^be316851b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png0034d8cbddffdf42^677"CpResource LexProductSelection/Resources/Images/CS310-CS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CS310-CS410-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/CS310-CS410-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"86DCE3B8-F77C-4281-BD71-97A8D740C8A7-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/CX310-CX410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png
+s423538769.402477
+e423538769.409601
+r1
+xCpResource
+xLexProductSelection/Resources/Images/CX310-CX410-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png145"CpResource LexProductSelection/Resources/Images/CX310-CX410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.pngf8196751b03eb941^d6e16851b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png0034d8cbddffdf42^677"CpResource LexProductSelection/Resources/Images/CX310-CX410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX310-CX410-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/CX310-CX410-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"DD51C7FB-C477-432D-BB67-A6769D00A72B-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/CX510-X740-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png
+s423538769.406169
+e423538769.412003
+r1
+xCpResource
+xLexProductSelection/Resources/Images/CX510-X740-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png143"CpResource LexProductSelection/Resources/Images/CX510-X740-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png1f106851b03eb941^7c7d6951b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png0034d8cbddffdf42^674"CpResource LexProductSelection/Resources/Images/CX510-X740-Series.png build/Debug-iphonesimulator/LexProductSelection.app/CX510-X740-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/CX510-X740-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"BDB3CBBA-5B58-4B96-B768-DA824AAFB314-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/FI-6130Z.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg
+s423538769.410091
+e423538769.416069
+r1
+xCpResource
+xLexProductSelection/Resources/Images/FI-6130Z.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg125"CpResource LexProductSelection/Resources/Images/FI-6130Z.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg2c106951b03eb941^20996a51b03eb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg0034d8cbddffdf42^647"CpResource LexProductSelection/Resources/Images/FI-6130Z.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6130Z.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/FI-6130Z.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"D82835DE-74AE-450B-AE7E-9F526062318B-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/FI-6670.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg
+s423538769.412506
+e423538769.418053
+r1
+xCpResource
+xLexProductSelection/Resources/Images/FI-6670.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg123"CpResource LexProductSelection/Resources/Images/FI-6670.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg5cab6951b03eb941^0c916b51b03eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg0034d8cbddffdf42^644"CpResource LexProductSelection/Resources/Images/FI-6670.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6670.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/FI-6670.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"8899C011-2A6F-4D19-BE7A-8DB8FB1D4B0B-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/FI-6800.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg
+s423538769.416507
+e423538769.422688
+r1
+xCpResource
+xLexProductSelection/Resources/Images/FI-6800.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg123"CpResource LexProductSelection/Resources/Images/FI-6800.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg0fb46a51b03eb941^f25b6c51b03eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg0034d8cbddffdf42^644"CpResource LexProductSelection/Resources/Images/FI-6800.jpg build/Debug-iphonesimulator/LexProductSelection.app/FI-6800.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/FI-6800.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"E6EF6BE9-0A3F-48D8-B71A-C1FF573F60E7-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MS310-MS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png
+s423538769.418864
+e423538769.424984
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MS310-MS410-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png145"CpResource LexProductSelection/Resources/Images/MS310-MS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png8f506b51b03eb941^1bd66c51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png0034d8cbddffdf42^677"CpResource LexProductSelection/Resources/Images/MS310-MS410-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS310-MS410-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS310-MS410-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"B4C88F87-ED1E-4DED-A0A5-2AB341915B64-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MS510-MS610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png
+s423538769.423201
+e423538769.428238
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MS510-MS610-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png145"CpResource LexProductSelection/Resources/Images/MS510-MS610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png6e6a6c51b03eb941^caa56d51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png0034d8cbddffdf42^677"CpResource LexProductSelection/Resources/Images/MS510-MS610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS510-MS610-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS510-MS610-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"9DDB6134-6674-4B5A-9FD6-0ABF9B920D20-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MS710-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png
+s423538769.425363
+e423538769.429830
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MS710-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png133"CpResource LexProductSelection/Resources/Images/MS710-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.pngd8f46c51b03eb941^5c596e51b03eb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png0034d8cbddffdf42^659"CpResource LexProductSelection/Resources/Images/MS710-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS710-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS710-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"35E21EDA-D34A-4354-A92A-84A0177A94D9-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MS810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png
+s423538769.428702
+e423538769.432509
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MS810-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png133"CpResource LexProductSelection/Resources/Images/MS810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.pngccd36d51b03eb941^97526f51b03eb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png0034d8cbddffdf42^659"CpResource LexProductSelection/Resources/Images/MS810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MS810-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MS810-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"AEF48A69-2FC2-475F-A2B3-31972CE01F2A-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png
+s423538769.430291
+e423538769.435894
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png157"CpResource LexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png193a6e51b03eb941^0a9d6f51b03eb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png0034d8cbddffdf42^695"CpResource LexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX310-MX410-MX510-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX310-MX410-MX510-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"B6F89865-83AD-47B2-BC47-5ECA50886DB1-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MX6500e.jpg build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg
+s423538769.450932
+e423538769.453355
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MX6500e.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg123"CpResource LexProductSelection/Resources/Images/MX6500e.jpg build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg90827351b03eb941^0a4b7451b03eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg0034d8cbddffdf42^644"CpResource LexProductSelection/Resources/Images/MX6500e.jpg build/Debug-iphonesimulator/LexProductSelection.app/MX6500e.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX6500e.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"A52A189E-7CF4-467E-AF4F-F86A699B56D7-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MX710-MX610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png
+s423538769.433018
+e423538769.440045
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MX710-MX610-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png145"CpResource LexProductSelection/Resources/Images/MX710-MX610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png00016f51b03eb941^77f37051b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png0034d8cbddffdf42^677"CpResource LexProductSelection/Resources/Images/MX710-MX610-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX710-MX610-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX710-MX610-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"08040DC7-EADD-4AC3-9301-C2A25AEDE814-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/MX810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png
+s423538769.437054
+e423538769.443219
+r1
+xCpResource
+xLexProductSelection/Resources/Images/MX810-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png133"CpResource LexProductSelection/Resources/Images/MX810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png1ff56f51b03eb941^72c57151b03eb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png0034d8cbddffdf42^659"CpResource LexProductSelection/Resources/Images/MX810-Series.png build/Debug-iphonesimulator/LexProductSelection.app/MX810-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/MX810-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"C4AB052C-EA45-47E6-995B-5F9934050598-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/ScanSnap-N-1800.jpg build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg
+s423538769.440567
+e423538769.444848
+r1
+xCpResource
+xLexProductSelection/Resources/Images/ScanSnap-N-1800.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg139"CpResource LexProductSelection/Resources/Images/ScanSnap-N-1800.jpg build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg1edd7051b03eb941^8ee57151b03eb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg0034d8cbddffdf42^668"CpResource LexProductSelection/Resources/Images/ScanSnap-N-1800.jpg build/Debug-iphonesimulator/LexProductSelection.app/ScanSnap-N-1800.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/ScanSnap-N-1800.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"B569BC6C-82F2-453C-88A2-58A0F02A2038-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/W850dn.jpg build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg
+s423538769.443569
+e423538769.445620
+r1
+xCpResource
+xLexProductSelection/Resources/Images/W850dn.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg121"CpResource LexProductSelection/Resources/Images/W850dn.jpg build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpgcfa07151b03eb941^f04e7251b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg0034d8cbddffdf42^641"CpResource LexProductSelection/Resources/Images/W850dn.jpg build/Debug-iphonesimulator/LexProductSelection.app/W850dn.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/W850dn.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"0484D5D4-33C0-4D21-9B29-97643A3F99A1-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/X790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png
+s423538769.445332
+e423538769.450498
+r1
+xCpResource
+xLexProductSelection/Resources/Images/X790-Series.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png131"CpResource LexProductSelection/Resources/Images/X790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png5c557251b03eb941^85427451b03eb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png0034d8cbddffdf42^656"CpResource LexProductSelection/Resources/Images/X790-Series.png build/Debug-iphonesimulator/LexProductSelection.app/X790-Series.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X790-Series.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"DD8D60B7-88AF-4E2B-B9B2-35839D0B5CB9-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/X864dhe.jpg build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg
+s423538769.445933
+e423538769.448314
+r1
+xCpResource
+xLexProductSelection/Resources/Images/X864dhe.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg123"CpResource LexProductSelection/Resources/Images/X864dhe.jpg build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg4b3a7251b03eb941^dbfc7351b03eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg0034d8cbddffdf42^644"CpResource LexProductSelection/Resources/Images/X864dhe.jpg build/Debug-iphonesimulator/LexProductSelection.app/X864dhe.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X864dhe.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"10C1B7F1-4983-40BC-A1E0-BA2679982B23-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/X925de.png build/Debug-iphonesimulator/LexProductSelection.app/X925de.png
+s423538769.454458
+e423538769.460096
+r1
+xCpResource
+xLexProductSelection/Resources/Images/X925de.png
+xbuild/Debug-iphonesimulator/LexProductSelection.app/X925de.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/X925de.png121"CpResource LexProductSelection/Resources/Images/X925de.png build/Debug-iphonesimulator/LexProductSelection.app/X925de.png58fe7451b03eb941^61c57551b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X925de.png0034d8cbddffdf42^641"CpResource LexProductSelection/Resources/Images/X925de.png build/Debug-iphonesimulator/LexProductSelection.app/X925de.png    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X925de.png /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"1C0A896E-D1C4-4661-B61E-442C69914757-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Images/X950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg
+s423538769.448904
+e423538769.452404
+r1
+xCpResource
+xLexProductSelection/Resources/Images/X950de.jpg
+xbuild/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg121"CpResource LexProductSelection/Resources/Images/X950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg4cff7251b03eb941^a6467451b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg0034d8cbddffdf42^641"CpResource LexProductSelection/Resources/Images/X950de.jpg build/Debug-iphonesimulator/LexProductSelection.app/X950de.jpg    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Images/X950de.jpg /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"948BE471-A52B-4038-AA01-C9DE93F49E2A-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-C740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf
+s423538769.459232
+e423538769.460937
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-C740-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-C740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdfdba57551b03eb941^a1137651b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-C740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C740-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C740-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"ED3A8D42-0BD4-424D-8D94-CD47AD242B16-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-C790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf
+s423538769.460845
+e423538769.464349
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-C790-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-C790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf4a5d7651b03eb941^bde57651b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-C790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C790-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C790-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"5821914D-027B-4017-A3E9-77473979577B-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-C925-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf
+s423538769.461646
+e423538769.463383
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-C925-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-C925-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf463f7651b03eb941^61a57651b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-C925-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C925-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C925-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"5DCDC5AE-8F20-4A99-BF2D-5E8F56DA3828-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-C950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf
+s423538769.463563
+e423538769.465127
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-C950-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-C950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf73bc7651b03eb941^780c7751b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-C950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-C950-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-C950-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"73B3193D-DD73-469C-849F-13490E391F6B-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-CS310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf
+s423538769.464742
+e423538769.467213
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-CS310-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-CS310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf51157751b03eb941^b5de7751b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-CS310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS310-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CS310-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"E38B71AC-BA9C-4E43-B36C-E2766B8C6D81-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-CS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf
+s423538769.465329
+e423538769.468624
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-CS410-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-CS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf94307751b03eb941^e1297851b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-CS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS410-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CS410-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"F3C58578-D9D3-4D40-9F27-429D829DB6E1-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-CS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf
+s423538769.467618
+e423538769.470584
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-CS510-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-CS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdfb4c77751b03eb941^fb787851b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-CS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CS510-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CS510-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"18AFF9B8-77D7-4801-9E3E-DF0001ADC138-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-CX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf
+s423538769.468784
+e423538769.470731
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-CX310-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-CX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf38127851b03eb941^7b867851b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-CX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX310-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CX310-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"C8855920-1CA2-4337-8765-53505669FF1E-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-CX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf
+s423538769.471318
+e423538769.474947
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-CX410-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-CX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdff5bb7851b03eb941^ae9c7951b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-CX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX410-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CX410-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"26854A82-F61B-4512-9604-6CDCCF579CAA-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-CX510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf
+s423538769.474569
+e423538769.476056
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-CX510-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-CX510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdfb48f7951b03eb941^96067a51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-CX510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-CX510-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-CX510-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"D3DA6EDA-865C-41A0-8C0D-C1051E172BB8-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf
+s423538769.475548
+e423538769.477426
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf136"CpResource LexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf92cd7951b03eb941^51317a51b03eb941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf0034d8cbddffdf42^663"CpResource LexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6130Z.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-FI-6130Z.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"657194AD-507D-42B0-99A8-4E932B5A9A81-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-FI-6670.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf
+s423538769.477230
+e423538769.479177
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-FI-6670.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf134"CpResource LexProductSelection/Resources/Specs/Specs-FI-6670.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf06467a51b03eb941^54ac7a51b03eb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf0034d8cbddffdf42^660"CpResource LexProductSelection/Resources/Specs/Specs-FI-6670.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6670.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-FI-6670.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"3DC2640C-1417-40EF-A7ED-0B3BED564C43-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-FI-6800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf
+s423538769.478795
+e423538769.480814
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-FI-6800.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf134"CpResource LexProductSelection/Resources/Specs/Specs-FI-6800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf2fa57a51b03eb941^0b0a7b51b03eb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf0034d8cbddffdf42^660"CpResource LexProductSelection/Resources/Specs/Specs-FI-6800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-FI-6800.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-FI-6800.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"5B9CE513-119F-474B-974B-32F8C0432D40-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf
+s423538769.480259
+e423538769.482350
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf156"CpResource LexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf68047b51b03eb941^6f7e7b51b03eb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf0034d8cbddffdf42^693"CpResource LexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS310-MS410-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS310-MS410-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"380C9E5F-8403-408D-A3AA-E179984EB6C2-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf
+s423538769.481850
+e423538769.484676
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MS510-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf7f6b7b51b03eb941^ab227c51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MS510-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS510-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS510-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"8A8C8E46-EB60-4C79-8702-3594D8A732D4-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MS610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf
+s423538769.482904
+e423538769.501409
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MS610-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MS610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf3eb07b51b03eb941^0e658051b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MS610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS610-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS610-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"A9156C77-4AE0-4A2C-B55D-D7F4C25ED3AB-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MS710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf
+s423538769.485537
+e423538769.492405
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MS710-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MS710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf807d7c51b03eb941^17107e51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MS710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS710-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS710-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"0E4EDC47-B06C-499E-B19C-F8C3B7DCB3A4-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MS810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf
+s423538769.492921
+e423538769.543134
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MS810-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MS810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdfc8447e51b03eb941^05178b51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MS810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS810-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS810-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"EAFAF0C5-384F-492F-8570-DA96D1834E9F-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf
+s423538769.501736
+e423538769.543301
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf156"CpResource LexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf49868051b03eb941^14238b51b03eb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf0034d8cbddffdf42^693"CpResource LexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MS811-MS812-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MS811-MS812-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"28CCDEDD-A1DA-422F-BCBD-278EC13F79FF-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf
+s423538769.543634
+e423538769.559127
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX310-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf0a488b51b03eb941^344a8f51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MX310-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX310-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX310-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"B98BC1E6-A06E-4AA7-85DF-BF316F126A04-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf
+s423538769.544096
+e423538769.559584
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX410-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdfd15c8b51b03eb941^0ea08f51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MX410-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX410-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX410-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"6A927274-C9BD-4789-9AB5-FCB2AB04CBDB-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf
+s423538769.559332
+e423538769.564793
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf156"CpResource LexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf295c8f51b03eb941^01bd9051b03eb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf0034d8cbddffdf42^693"CpResource LexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX510-MX511-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX510-MX511-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"56F52543-7778-4D5E-B18A-D9CA08900408-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf
+s423538769.561795
+e423538769.566421
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX610-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MX610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdfd9ed8f51b03eb941^5dc39051b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MX610-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX610-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX610-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"169C07B9-4AA6-4365-81A2-3D6B9A4B19B0-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX6500e.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf
+s423538769.569709
+e423538769.587409
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX6500e.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf134"CpResource LexProductSelection/Resources/Specs/Specs-MX6500e.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf74eb9151b03eb941^4eb99651b03eb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf0034d8cbddffdf42^660"CpResource LexProductSelection/Resources/Specs/Specs-MX6500e.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX6500e.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX6500e.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"7EB15C3A-C25B-4B11-9E7A-78D3D8E054A1-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf
+s423538769.564981
+e423538769.567870
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX710-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MX710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf89b59051b03eb941^aa9d9151b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MX710-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX710-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX710-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"3D4FD458-B167-48B0-A2F2-EE52729679B9-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-MX810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf
+s423538769.566971
+e423538769.602403
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-MX810-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf144"CpResource LexProductSelection/Resources/Specs/Specs-MX810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf2c659151b03eb941^4f3d9a51b03eb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf0034d8cbddffdf42^675"CpResource LexProductSelection/Resources/Specs/Specs-MX810-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-MX810-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-MX810-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"28F920EA-1503-401B-86A9-07195902C324-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf
+s423538769.587731
+e423538769.593587
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf150"CpResource LexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf938a9651b03eb941^4cfe9751b03eb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf0034d8cbddffdf42^684"CpResource LexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-ScanSnap-N-1800.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-ScanSnap-N-1800.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"1E75FD2A-F2B6-472E-A353-649072764ABF-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-W850-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf
+s423538769.594164
+e423538769.596679
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-W850-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-W850-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf662e9851b03eb941^ecc19851b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-W850-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-W850-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-W850-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"4BB40113-80DB-45BD-90B8-353C599687DA-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-X740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf
+s423538769.597389
+e423538769.601426
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-X740-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-X740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf60009951b03eb941^d2009a51b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-X740-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X740-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X740-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"C6F64C7F-2329-4BAF-9657-CF1659CE883E-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-X790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf
+s423538769.601809
+e423538769.614723
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-X790-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-X790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdfd1239a51b03eb941^01f89f51b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-X790-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X790-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X790-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"6CDCB650-AEF6-4395-BAB7-4552B00CD9B6-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-X860-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf
+s423538769.602854
+e423538769.610196
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-X860-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-X860-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdfe5649a51b03eb941^b7429c51b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-X860-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X860-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X860-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"B62A484D-79BE-4FEF-8F4A-1B5B5865FF33-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-X925de.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf
+s423538769.610762
+e423538769.614375
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-X925de.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf132"CpResource LexProductSelection/Resources/Specs/Specs-X925de.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdfa06e9c51b03eb941^b2f29f51b03eb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf0034d8cbddffdf42^657"CpResource LexProductSelection/Resources/Specs/Specs-X925de.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X925de.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X925de.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"9CC26AA7-B23B-498C-A7D6-CC36AAF9C517-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/Resources/Specs/Specs-X950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf
+s423538769.615031
+e423538769.618309
+r1
+xCpResource
+xLexProductSelection/Resources/Specs/Specs-X950-Series.pdf
+xbuild/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf142"CpResource LexProductSelection/Resources/Specs/Specs-X950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdfc58f9d51b03eb941^8201a051b03eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf0034d8cbddffdf42^672"CpResource LexProductSelection/Resources/Specs/Specs-X950-Series.pdf build/Debug-iphonesimulator/LexProductSelection.app/Specs-X950-Series.pdf    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/Resources/Specs/Specs-X950-Series.pdf /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"0377144D-716A-419D-A3CA-163809DE55DE-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/change.log build/Debug-iphonesimulator/LexProductSelection.app/change.log
+s423538769.615879
+e423538769.619271
+r1
+xCpResource
+xLexProductSelection/change.log
+xbuild/Debug-iphonesimulator/LexProductSelection.app/change.log
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/LexProductSelection.app/change.log104"CpResource LexProductSelection/change.log build/Debug-iphonesimulator/LexProductSelection.app/change.logd6c59d51b03eb941^c006a051b03eb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/change.log0034d8cbddffdf42^607"CpResource LexProductSelection/change.log build/Debug-iphonesimulator/LexProductSelection.app/change.log    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/change.log /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"600A2FCF-6103-43C2-8299-B1AD4DDD56D5-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CCpResource LexProductSelection/event.css build/Debug-iphonesimulator/LexProductSelection.app/event.css
+s423538769.381403
+e423538769.382774
+r1
+xCpResource
+xLexProductSelection/event.css
+xbuild/Debug-iphonesimulator/LexProductSelection.app/event.css
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/LexProductSelection.app/event.css102"CpResource LexProductSelection/event.css build/Debug-iphonesimulator/LexProductSelection.app/event.css67b46151b03eb941^390c6251b03eb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/event.css0034d8cbddffdf42^604"CpResource LexProductSelection/event.css build/Debug-iphonesimulator/LexProductSelection.app/event.css    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/event.css /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app36"A42FB8C6-51B2-4A47-920B-750333F16F7A-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CGenerateDSYMFile /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection
+s423538769.178197
+e423538769.370145
+r1
+xGenerateDSYMFile
+x/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM
+x/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM145"GenerateDSYMFile build/Debug-iphonesimulator/LexProductSelection.app.dSYM build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection29b32d51b03eb941^4ab25e51b03eb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM0034d8cbddffdf42^685"GenerateDSYMFile build/Debug-iphonesimulator/LexProductSelection.app.dSYM build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection -o /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app.dSYM36"15EE26D4-5E14-47A9-9E09-E0312DA78276-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CLd /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection normal i386
+s423538768.707574
+e423538769.176695
+r1
+xLd
+x/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection
+xnormal
+xi386
+d/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/LexProductSelection.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/main.o
+d/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/PageAppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Library/Frameworks/libNimbleKit.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection86"Ld build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection normal i3866341b550b03eb941^ac3c2d51b03eb941^---0#0#1#--1836"Ld build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection normal i386    cd /Users/fcantay/Desktop/Selex-v0.03    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator -L/Library/Frameworks -F/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator -filelist /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/LexProductSelection.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -l sqlite3 -all_load -weak_framework UIKit -weak_framework Foundation -weak_framework CoreGraphics -weak_framework MessageUI -weak_framework iAd -weak_framework CoreMotion -weak_framework StoreKit -weak_framework MapKit -weak_framework MediaPlayer -weak_framework AddressBook -weak_framework AddressBookUI -weak_framework CoreLocation -weak_framework AVFoundation -weak_framework SystemConfiguration -weak_framework AudioToolbox -weak_framework CFNetwork -lNimbleKit -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -Xlinker -dependency_info -Xlinker /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/Objects-normal/i386/LexProductSelection_dependency_info.dat -o /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/LexProductSelection36"0D10E237-FDEF-465E-ACAA-E1E93B0C4948-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CProcessInfoPlistFile /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Info.plist /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist
+s423538766.755911
+e423538766.771758
+r1
+xProcessInfoPlistFile
+x/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Info.plist
+x/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist134"ProcessInfoPlistFile build/Debug-iphonesimulator/LexProductSelection.app/Info.plist LexProductSelection/LexProductSelection-Info.plist2768c34eb03eb941^739fcc4eb03eb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist0000000000000000^757"ProcessInfoPlistFile build/Debug-iphonesimulator/LexProductSelection.app/Info.plist LexProductSelection/LexProductSelection-Info.plist    cd /Users/fcantay/Desktop/Selex-v0.03    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Info.plist -genpkginfo /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app/Info.plist36"433DE8BD-E8C4-4D58-BA28-AB2E7D2AF796-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CProcessPCH /Users/fcantay/Library/Developer/Xcode/DerivedData/LexProductSelection-gdnjzfzhfwzpduawhtbnejfndlos/Index/PrecompiledHeaders/LexProductSelection-Prefix-dzsczzrqtpbygthfilobhhcjasyp_ast/LexProductSelection-Prefix.pch.pch LexProductSelection/LexProductSelection-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch LexProductSelection/LexProductSelection-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423538766.774091
+e423538768.085029
+r1
+xProcessPCH
+x/var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch
+xLexProductSelection/LexProductSelection-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile LexProductSelection/LexProductSelection-Prefix.pch338"ProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch LexProductSelection/LexProductSelection-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere351c64eb03eb941^7ec61550b03eb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Prefix.pch0000000000000000^3773"ProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch LexProductSelection/LexProductSelection-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/Selex-v0.03    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-generated-files.hmap -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-own-target-headers.hmap -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-all-target-headers.hmap -iquote /Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/LexProductSelection-project-headers.hmap -iquote/Library/Frameworks/NimbleKit -I/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/DerivedSources/i386 -I/Users/fcantay/Desktop/Selex-v0.03/build/LexProductSelection.build/Debug-iphonesimulator/LexProductSelection.build/DerivedSources -F/Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.d -c /Users/fcantay/Desktop/Selex-v0.03/LexProductSelection/LexProductSelection-Prefix.pch -o /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexProductSelection-Prefix-bfvkjguglbtjmfahebymusjjqvos/LexProductSelection-Prefix.pch.pch36"2B7F61FC-7A07-4FF7-88F2-25B68B78D77C-
+bF5E25C5F-970E-4B4D-9C95-17DBA52A5C0B
+
+CTouch /Users/fcantay/Desktop/Selex-v0.03/build/Debug-iphonesimulator/LexProductSelection.app
+r0
+

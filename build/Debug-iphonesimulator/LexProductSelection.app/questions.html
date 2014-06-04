@@ -1,0 +1,216 @@
+<html>
+    <head>
+        
+        <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="event.css" rel="stylesheet" type="text/css">
+        <title>Questions</title>
+            
+            <script type="text/javascript" src="NKit.js"></script>
+            <script type="text/javascript" src="items.js"></script>
+            <script type="text/javascript">
+                
+                var application = new NKApplication();
+                application.setStatusBarStyle("blacktranslucent");
+                
+                //var navController = new NKNavigationController();
+                //navController.setTitle("Questions");
+                //navController.setTintColor(65,64,66);
+                
+                
+                var backFromProduct = false;
+                var indexTxt = NKGetParameter("index");
+                var currentItemIndex = parseInt(indexTxt,10);  //convert to integer
+                
+                function onPageShown(caller)
+                {
+                    //if page is shown as a result of clicking back button
+                    if(backFromProduct == true)
+                    {
+                        backFromProduct = false;
+                        
+                        currentItemIndex = getCurrentIndex();
+                        removeItemAnswer(currentItemIndex);
+                    }
+                }
+                
+                /*
+                 open Answer page where user can review and edit his answers
+                 */
+                function reviewAnswers()
+                {
+                    //navController.gotoPage('answers.html?id=1-1');
+                    NKMoveToPageAnimated('answers.html?id=1-1', "FastPushLeft");
+                }
+                
+                /*
+                 open Product page that displays the specific product based on choices/answers
+                 selected by user
+                 */
+                function viewProduct()
+                {
+                    backFromProduct = true;
+                    //navController.gotoPage('product.html?index='+currentItemIndex);
+                
+                    NKMoveToPageAnimated('product.html?index='+currentItemIndex, "FastPushLeft");
+                }
+                
+
+
+                /*
+                function displayViewProductButton()
+                {
+                    var innerText;
+                    
+                    innerText  ="<button onclick='viewProduct()'>View Product</button>";
+                    innerText +="<button onclick='reviewAnswers()'>Review Answers</button>";
+                    document.getElementById("question").className="specs";
+                    document.getElementById("question").innerHTML=innerText;
+
+                    innerText = "Press View Product button to view the product or press Review Answers button to review your answers";
+                    document.getElementById("question_desc").innerHTML=innerText;
+                    
+                    //remove buttons
+                    document.getElementById("choices_button").innerHTML="";
+                    document.getElementById("review_answer").innerHTML="";
+                }*/
+
+                function editNext(currentIndex)
+                {
+                    currentItemIndex = currentIndex;
+                    
+                    if(currentItemIndex < 100) //index < 100 are items for questions
+                    {
+                        displayQuestion();
+                        displayChoicesButton();
+                        displayReviewAnswerButton();
+                    }
+                    else //index >= 100 are items for final product names
+                    {
+                        //displayProduct();
+                        viewProduct();
+                        //displayViewProductButton();
+                    }
+                }
+                
+                function getNextQuestion(id)
+                {
+                    var txt = id.split("-"); // Split on dash
+                    var nextItemIndex = parseInt(txt[0],10);        //convert to integer
+                    var currentChoiceIndex = parseInt(txt[1],10);   //convert to integer
+                    
+                    //save the index to the item and and the index to the choice
+                    addAnswer(currentItemIndex,currentChoiceIndex);
+                    
+                    setCurrentIndex(currentItemIndex);
+                    
+                    //set current item index to next index before calling displayQuestion
+                    currentItemIndex = nextItemIndex;
+                    
+                    //display Next button if there still more questions to ask
+                    //or display View Product button if it is the final question to reach a specific product
+                    if(currentItemIndex < 100) //index < 100 are items for questions
+                    {
+                        displayQuestion();
+                        displayChoicesButton();
+                        displayReviewAnswerButton();
+                    }
+                    else //index >= 100 are items for final product names
+                    {
+                        //displayProduct();
+                        viewProduct();
+                        //displayViewProductButton();
+                    }
+
+                }
+
+                /*
+                 Get the question from items array, and display
+                 */
+                function displayQuestion()
+                {
+                    var items = getItems();
+                    
+                    //get and display the question
+                    var question = items[currentItemIndex].question;
+                    document.getElementById("question").innerHTML=question;
+                    
+                    //get and display the question description
+                    //var description = items[currentItemIndex].description;
+                    var description = items[currentItemIndex].description;
+                    document.getElementById("question_desc").innerHTML=description;
+                }
+                
+                /*
+                 Get choices from items array, and display in button element
+                 */
+                function displayChoicesButton()
+                {
+                    var items = getItems();
+                    var innerText = "";
+                    for(choice in items[currentItemIndex].choices)
+                    {
+                        var nextItemIndex = items[currentItemIndex].choiceLink[choice];
+                        innerText+="<button onclick='getNextQuestion(this.id)' id='"+nextItemIndex+"-"+choice+"'>"+items[currentItemIndex].choices[choice]+"</button>";
+                    }
+
+                    document.getElementById("choices_button").innerHTML=innerText;
+                }
+        
+
+                
+                /*
+                 Display Review Answer link that user can click
+                 to view all answers
+                 */
+                function displayReviewAnswerButton()
+                {
+                    var innerText = "";
+                    if(currentItemIndex > 1) //is there at least one question answered already
+                    {
+                        innerText="Review Answers";
+                    }
+                    
+                    document.getElementById("review_answer").innerHTML=innerText;
+                }
+
+                function onBack()
+                {
+                    NKMoveToPageAnimated('main.html', "FastPushRight");
+                }
+                
+                /*function displayProduct()
+                {
+                    var innerText="";
+                    var items = getItems();
+                    var productName = "";
+                    
+                    innerText = items[currentItemIndex].productName;
+                    document.getElementById("product_name").innerHTML=innerText;
+
+                    
+                }*/
+
+                
+                </script>
+            </head>
+    <body>
+        <div class="title_bar">
+            <span class="backbutton" onclick="onBack()">&lt; Back</span>
+            <span class="title">SeLex</span>
+        </div>
+        <div class="container">
+            <div class="nav_bar">| Questions</div>
+            <div class="question" id="question"></div>
+            <div class="question_description" id="question_desc"></div>
+            <div class="question_choices" id="choices_button"></div>
+            <div class="question_answer_review" id="review_answer" onclick='reviewAnswers()'>Review Answers</div>
+
+        </div>
+        <script>
+            displayQuestion();
+            displayChoicesButton();
+            displayReviewAnswerButton();
+        </script>
+    </body>
+</html>
